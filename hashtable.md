@@ -18,16 +18,16 @@ def subarraySum(nums,k):
              dic[sums]+=1
     return count
     
-  
-        
-        count=0
+ def subarraySum(nums,k):
+      count=0
         for start in range(len(nums)):
             for end in range(start+1,len(nums)+1):
                 sums=sum(nums[start:end])
                 if sums==k:
                     count+=1
-        return count
-     
+        return count  
+        
+  def subarraySum(nums,k):   
         count=0
         sums=[0]*(len(nums)+1)
         for i in range(1,len(nums)+1):
@@ -37,7 +37,8 @@ def subarraySum(nums,k):
                 if sums[end]-sums[start]==k:
                     count+=1
         return count
-    
+        
+   def subarraySum(nums,k):
         count=0
         for start in range(len(nums)):
             sums=0
