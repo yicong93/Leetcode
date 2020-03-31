@@ -1,7 +1,8 @@
 # Leetcode - Python3
 
-# 560 (medium)
+# 560 (Medium)
 Given an array of integers and an integer k, you need to find the total number of continuous subarrays whose sum equals to k.
+
 
 def subarraySum(nums,k):
     count=0
@@ -17,7 +18,7 @@ def subarraySum(nums,k):
              dic[sums]+=1
     return count
     
- # time limit exceeded    
+  
         '''
         count=0
         for start in range(len(nums)):
