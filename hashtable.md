@@ -5,7 +5,7 @@ Given an array of integers and an integer k, you need to find the total number o
 
         Idea:
         If the cumulative sum upto two indices, saying i and j is at a difference of k 
-        i.e. sum[i] - sum[j] = sum[i]   −sum[j]=k, the sum of elements lying between indices i and j is k.
+        i.e. sum[i] - sum[j] = sum[i] − sum[j]=k, the sum of elements lying between indices i and j is k.
 
         Steps:
         1. make use of a hashmap mapmap which is used to store the cumulative sum upto all the indices possible 
