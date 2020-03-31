@@ -8,15 +8,15 @@ Given an array of integers and an integer k, you need to find the total number o
         i.e. sum[i] - sum[j] = sum[i] − sum[j]=k, the sum of elements lying between indices i and j is k.
 
         Steps:
-        1. make use of a hashmap mapmap which is used to store the cumulative sum upto all the indices possible 
+        1. make use of a hashmap which is used to store the cumulative sum upto all the indices possible 
         along with the number of times the same sum occurs. 
-        We store the data in the form: (sum_i, no. of occurrences of  sum_i).
+        We store the data in the form: (sum_i, no. of occurrences of sum_i).
         2. traverse over the array nums and keep on finding the cumulative sum. Every time we encounter a new sum, 
         we make a new entry in the hashmap corresponding to that sum. 
         3. if the same sum occurs again, we increment the count corresponding to that sum in the hashmap. 
         4. further, for every sum encountered, we also determine the number of times the sum-k has occured already, 
         since it will determine the number of times a subarray of sum-k has occured upto the current index. 
-        We increment the count by the same amount.
+        We increment the count by the same amount in the hashmap.
         5. after the complete array has been traversed, the count gives the required result.
 
         def subarraySum(nums,k):
