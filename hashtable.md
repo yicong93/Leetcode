@@ -19,14 +19,13 @@ def subarraySum(nums,k):
     return count
     
   
-        
-        count=0
+      count=0
         for start in range(len(nums)):
             for end in range(start+1,len(nums)+1):
                 sums=sum(nums[start:end])
                 if sums==k:
                     count+=1
-        return count
+        return count  
      
         count=0
         sums=[0]*(len(nums)+1)
