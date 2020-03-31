@@ -1,10 +1,10 @@
-Leetcode - Python3
 
-560 (Medium)
+
+# 560 (Medium)
 Given an array of integers and an integer k, you need to find the total number of continuous subarrays whose sum equals to k.
 
-class Solution(object):
-        def subarraySum(self,nums,k):
+
+        def subarraySum(nums,k):
             count=0
             sums=0
             dic={0:1}
@@ -17,8 +17,10 @@ class Solution(object):
                 else:
                      dic[sums]+=1
             return count
-
-         def subarraySum(self,nums,k):
+        # time:o(n)
+        # space:o(n)
+        
+         def subarraySum(nums,k):
               count=0
                 for start in range(len(nums)):
                     for end in range(start+1,len(nums)+1):
@@ -26,8 +28,10 @@ class Solution(object):
                         if sums==k:
                             count+=1
                 return count  
-
-          def subarraySum(self,nums,k):   
+         # time:o(n^3)
+         # space:o(1)
+         
+          def subarraySum(nums,k):   
                 count=0
                 sums=[0]*(len(nums)+1)
                 for i in range(1,len(nums)+1):
@@ -37,8 +41,10 @@ class Solution(object):
                         if sums[end]-sums[start]==k:
                             count+=1
                 return count
-
-           def subarraySum(self,nums,k):
+         # time:o(n^2)
+         # space:o(n)
+         
+           def subarraySum(nums,k):
                 count=0
                 for start in range(len(nums)):
                     sums=0
@@ -47,6 +53,7 @@ class Solution(object):
                         if sums==k:
                             count+=1
                 return count
-
+         # time:o(n^2)
+         # space:o(1)
 
 
