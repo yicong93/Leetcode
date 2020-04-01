@@ -23,7 +23,7 @@ order by c.transactions_count;
 Comments:
 # ifnull -> mysql
 # isnull -> sql server
-# recursive CTE:
+# recursive CTE (https://www.sqlservertutorial.net/sql-server-basics/sql-server-recursive-cte/):
   1.An initial query that returns the base result set of the CTE. The initial query is called an anchor member.
   2.A recursive query that references the common table expression, therefore, it is called the recursive member. The recursive member is union-ed with the anchor member using the UNION ALL operator.
   3.A termination condition specified in the recursive member that terminates the execution of the recursive member.
