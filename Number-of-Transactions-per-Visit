@@ -18,4 +18,11 @@ where transactions_count<tem
 
 select c.transactions_count, isnull(b.visits_count,0) as visits_count
 from c left join b on c.transactions_count=b.transactions_count
-order by c.transactions_count
+order by c.transactions_count;
+
+# ifnull -> mysql
+# isnull -> sql server
+# recursive CTE
+An initial query that returns the base result set of the CTE. The initial query is called an anchor member.
+A recursive query that references the common table expression, therefore, it is called the recursive member. The recursive member is union-ed with the anchor member using the UNION ALL operator.
+A termination condition specified in the recursive member that terminates the execution of the recursive member.
