@@ -1,21 +1,21 @@
-              with a as (
-              select v.user_id, v.visit_date,sum(case when t.transaction_date is not null then 1 else 0 end) as transaction_count
-              from Visits v left join Transactions t on v.user_id=t.user_id
-              and v.visit_date=t.transaction_date
-              group by v.user_id,v.visit_date
-              ),
-              b as (
-              select a.transaction_count as transactions_count, count(*) as visits_count
-              from a 
-              group by a.transaction_count 
-              ),
-              c as (
-              select 0 as transactions_count,max(b.transactions_count) as tem from b
-              union all
-              select transactions_count+1,tem from c
-              where transactions_count<tem
-              )
+with a as (
+select v.user_id, v.visit_date,sum(case when t.transaction_date is not null then 1 else 0 end) as transaction_count
+from Visits v left join Transactions t on v.user_id=t.user_id
+and v.visit_date=t.transaction_date
+group by v.user_id,v.visit_date
+),
+b as (
+select a.transaction_count as transactions_count, count(*) as visits_count
+from a 
+group by a.transaction_count 
+),
+c as (
+select 0 as transactions_count,max(b.transactions_count) as tem from b
+union all
+select transactions_count+1,tem from c
+where transactions_count<tem
+)
 
-              select c.transactions_count, isnull(b.visits_count,0) as visits_count
-              from c left join b on c.transactions_count=b.transactions_count
-              order by c.transactions_count
+select c.transactions_count, isnull(b.visits_count,0) as visits_count
+from c left join b on c.transactions_count=b.transactions_count
+order by c.transactions_count
