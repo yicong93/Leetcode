@@ -1,6 +1,6 @@
 ## Algorithms
 
-* [Hash Table](https://github.com/yicong93/LeetCode/Leetcode_Solution#Hash Table)
+* [Hash Table](https://github.com/yicong93/LeetCode#Hash-Table)
 
 ## Hash Table
 |  #  | Title           |  Solution       |  Time           | Space           | Difficulty    | Tag          | Note| 
