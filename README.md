@@ -14,4 +14,4 @@
 ## sql
 |  #  | Title           |  Solution       |Difficulty    |Note| 
 |-----|---------------- | --------------- |------------- |-----|
-1336| [Number of Transactions per Visit](https://leetcode.com/problems/number-of-transactions-per-visit/)      | [sql server](./Number-of-Transactions-per-Visit)      | Hard        ||
+1336| [Number of Transactions per Visit](https://leetcode.com/problems/number-of-transactions-per-visit/)      | [sql server](./Number-of-Transactions-per-Visit)      | Hard        |🔒|
