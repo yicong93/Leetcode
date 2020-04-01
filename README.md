@@ -2,7 +2,7 @@
 
 * [Hash Table](https://github.com/yicong93/LeetCode#Hash-Table)
 
-
+## Database
 * [SQL](https://github.com/yicong93/LeetCode#sql)
 
 
