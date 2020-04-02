@@ -29,6 +29,9 @@ class TwoSum:
         return False
 
 
+# time: add() is o(1), find() is o(n)
+# space: o(n)
+
 # Your TwoSum object will be instantiated and called as such:
 # obj = TwoSum()
 # obj.add(number)
