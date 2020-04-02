@@ -1,0 +1,29 @@
+        class Solution:
+            def subdomainVisits(self, cpdomains: List[str]) -> List[str]:
+                '''
+                import collections
+                ans=collections.Counter()
+                for domains in cpdomains:
+                    count, domains=domains.split()
+                    count=int(count)
+                    domain=domains.split('.')
+                    for i in range(len(domain)):
+                        ans[".".join(domain[i:])]+=count
+                return ["{} {}".format(cnt, dom) for dom, cnt in ans.items()]
+                '''
+                # A Counter is a dict subclass for counting hashable objects. It is an unordered collection where elements are stored as dictionary keys and their counts are stored as dictionary values.
+
+                from collections import defaultdict
+                ans=defaultdict(int)
+                for domains in cpdomains:
+                    count, domains=domains.split()
+                    count=int(count)
+                    domain=domains.split('.')
+                    for i in range(len(domain)):
+                        ans[".".join(domain[i:])]+=count
+                return ["{} {}".format(cnt, dom) for dom, cnt in ans.items()]
+
+
+
+            # time: o(n)
+            # space: o(n)
