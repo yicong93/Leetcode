@@ -1,0 +1,29 @@
+class Solution:
+    def twoSum(self, nums: List[int], target: int) -> List[int]:
+        dic={}
+        for i in range(len(nums)):
+            if target-nums[i] in dic:
+                return [dic[target-nums[i]],i]
+            else:
+                dic[nums[i]]=i
+        return []
+    
+    # time: o(n)
+    # space: o(n)
+    
+    
+    #additional knowledge:
+    enumerate(iterable, start=0)
+    Parameters:
+    Iterable: any object that supports iteration
+    Start: the index value from which the counter is to be started, by default it is 0.
+    
+E.G.
+    l1 = ["eat","sleep","repeat"] 
+    s1 = "geek"
+
+    print (list(enumerate(l1))) -> [(0, 'eat'), (1, 'sleep'), (2, 'repeat')]
+
+    # changing start index to 2 from 0 
+    print (list(enumerate(s1,2))) -> [(2, 'g'), (3, 'e'), (4, 'e'), (5, 'k')]
+    
