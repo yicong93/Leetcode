@@ -1,0 +1,40 @@
+MYSQL
+
+select a.product_id, p.product_name,a.report_year,a.total_amount
+from(
+select product_id, '2018' as report_year, average_daily_sales* (datediff(least(period_end,'2018-12-31'),greatest(period_start,'2018-01-01'))+1) as total_amount
+from Sales 
+where year(period_start)=2018 or year(period_end)=2018
+    
+union all
+
+select product_id, '2019' as report_year, average_daily_sales* (datediff(least(period_end,'2019-12-31'),greatest(period_start,'2019-01-01'))+1) as total_amount
+from Sales 
+where year(period_start)<=2019 and year(period_end)>=2019
+
+union all
+    
+select product_id, '2020' as report_year, average_daily_sales* (datediff(least(period_end,'2020-12-31'),greatest(period_start,'2020-01-01'))+1) as total_amount
+from Sales 
+where year(period_start)=2020 or year(period_end)=2020
+) a left join Product p on a.product_id=p.product_id
+order by a.product_id,a.report_year;
+
+
+MS SQL SERVER
+
+with dates as
+(select min(period_start) as s_date,max(period_end) as e_date from sales
+	union all
+ select dateadd(day,1,s_date), e_date from dates
+ where s_date<e_date
+) 
+select
+cast(p.product_id as varchar(50)) as product_id, p.product_name, 
+cast(year(s_date) as varchar(5)) as report_year, sum(average_daily_sales) as total_amount
+from product p 
+left join sales s on p.product_id = s.product_id
+left join dates d on d.s_date between s.period_start and s.period_end 
+group by p.product_id , p.product_name, year(s_date)
+order by 1,3 
+option(maxrecursion 1096)
