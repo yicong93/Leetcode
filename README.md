@@ -9,6 +9,7 @@
 ## Hash Table
 |  #  | Title           |  Solution       |  Time           | Space           | Difficulty    |Note| 
 |-----|---------------- | --------------- | --------------- | --------------- | ------------- |-----|
+1| [Two Sum](https://leetcode.com/problems/two-sum/)      | [Python](./Two-Sum)      | _O(n)_         | _O(n)_          | Easy        ||
 560| [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/)      | [Python](./Subarray-Sum-Equals-K)      | _O(n)_         | _O(n)_          | Medium         ||
 811| [Subdomain Visit Count](https://leetcode.com/problems/subdomain-visit-count/)      | [Python](./Subdomain-Visit-Count)      | _O(n)_         | _O(n)_          | Easy        ||
 
