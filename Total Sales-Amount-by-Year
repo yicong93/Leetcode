@@ -1,4 +1,4 @@
-MYSQL
+# MYSQL
 
 select a.product_id, p.product_name,a.report_year,a.total_amount
 from(
@@ -21,7 +21,7 @@ where year(period_start)=2020 or year(period_end)=2020
 order by a.product_id,a.report_year;
 
 
-MS SQL SERVER
+# MS SQL SERVER
 
 with dates as
 (select min(period_start) as s_date,max(period_end) as e_date from sales
