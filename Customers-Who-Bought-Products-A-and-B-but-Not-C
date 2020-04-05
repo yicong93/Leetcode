@@ -1,0 +1,22 @@
+Solution 1:
+select o.customer_id, c.customer_name
+from Orders o join Customers c on o.customer_id=c.customer_id
+join Orders r on o.customer_id=r.customer_id and o.product_name='A' and r.product_name='B'
+left join Orders d on r.customer_id=d.customer_id and d.product_name='C'
+where d.product_name is null
+
+
+Solution 2:
+select c.customer_id, c.customer_name 
+from Customers as c 
+        join
+        (select customer_id, 
+        sum(CASE
+        WHEN product_name = 'A' THEN 1
+        WHEN product_name = 'B' THEN 1
+        WHEN product_name = 'C' THEN -1
+        ELSE 0 END) as tot   
+    from Orders
+    group by customer_id
+    having tot=2) as o
+where c.customer_id = o.customer_id
