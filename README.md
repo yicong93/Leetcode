@@ -20,6 +20,7 @@
 ## sql
 |  #  | Title           |  Solution       |Difficulty    |Note| 
 |-----|---------------- | --------------- |------------- |-----|
+136| [Single Number](https://leetcode.com/problems/single-number/)      | [MY SQL](./Single-Number)      | Easy        ||
 1336| [Number of Transactions per Visit](https://leetcode.com/problems/number-of-transactions-per-visit/)      | [MS SQL SERVER](./Number-of-Transactions-per-Visit)      | Hard        |🔒|
 1384| [Total Sales Amount by Year](https://leetcode.com/problems/total-sales-amount-by-year/)      | [MY SQL/MS SQL SERVER](./Total-Sales-Amount-by-Year)      | Hard        |🔒|
 1398| [Customers Who Bought Products A and B but Not C](https://leetcode.com/problems/customers-who-bought-products-a-and-b-but-not-c/)      | [MY SQL](./Customers-Who-Bought-Products-A-and-B-but-Not-C)      | Medium       |🔒|
