@@ -1,9 +1,15 @@
 ## Algorithms
 
+* [Array](https://github.com/yicong93/LeetCode#Array)
 * [Hash Table](https://github.com/yicong93/LeetCode#Hash-Table)
 
 ## Database
 * [SQL](https://github.com/yicong93/LeetCode#sql)
+
+
+## Array
+|  #  | Title           |  Solution       |  Time           | Space           | Difficulty    |Note| 
+|-----|---------------- | --------------- | --------------- | --------------- | ------------- |-----|
 
 
 ## Hash Table
