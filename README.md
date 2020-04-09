@@ -11,7 +11,7 @@
 |  #  | Title           |  Solution       |  Time           | Space           | Difficulty    |Note| 
 |-----|---------------- | --------------- | --------------- | --------------- | ------------- |-----|
 53| [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)      | [Python](./Maximum-Subarray)      | _O(n)_         | _O(1)_          | Easy        ||
-
+283| [Move Zeroes](https://leetcode.com/problems/move-zeroes/)      | [Python](./Move-Zeroes)      | _O(n)_         | _O(1)_          | Easy        ||
 
 ## Hash Table
 |  #  | Title           |  Solution       |  Time           | Space           | Difficulty    |Note| 
