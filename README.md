@@ -1,6 +1,7 @@
 ## Algorithms
 
 * [Array](https://github.com/yicong93/LeetCode#Array)
+* [Linked List](https://github.com/yicong93/LeetCode#Linked-List)
 * [Hash Table](https://github.com/yicong93/LeetCode#Hash-Table)
 
 ## Database
@@ -15,6 +16,10 @@
 283| [Move Zeroes](https://leetcode.com/problems/move-zeroes/)      | [Python](./Move-Zeroes)      | _O(n)_         | _O(1)_          | Easy        ||
 
 
+## Linked List
+|  #  | Title           |  Solution       |  Time           | Space           | Difficulty    |Note| 
+|-----|---------------- | --------------- | --------------- | --------------- | ------------- |-----|
+876| [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/)      | [Python](./Middle-of-the-Linked-List)      | _O(n)_         | _O(1)_          | Easy        ||
 
 ## Hash Table
 |  #  | Title           |  Solution       |  Time           | Space           | Difficulty    |Note| 
