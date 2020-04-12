@@ -3,6 +3,7 @@
 * [Array](https://github.com/yicong93/LeetCode#Array)
 * [Linked List](https://github.com/yicong93/LeetCode#Linked-List)
 * [Hash Table](https://github.com/yicong93/LeetCode#Hash-Table)
+* [Stack](https://github.com/yicong93/LeetCode#Stack)
 
 ## Database
 * [SQL](https://github.com/yicong93/LeetCode#sql)
@@ -33,6 +34,11 @@
 560| [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/)      | [Python](./Subarray-Sum-Equals-K)      | _O(n)_         | _O(n)_          | Medium         ||
 811| [Subdomain Visit Count](https://leetcode.com/problems/subdomain-visit-count/)      | [Python](./Subdomain-Visit-Count)      | _O(n)_         | _O(n)_          | Easy        ||
 
+
+## Stack
+|  #  | Title           |  Solution       |  Time           | Space           | Difficulty    |Note| 
+|-----|---------------- | --------------- | --------------- | --------------- | ------------- |-----|
+844| [Backspace String Compare](https://leetcode.com/problems/backspace-string-compare/)      | [Python](./Backspace-String-Compare)      | _O(n+m)_         | _O(n+m)_          | Easy        ||
 
 ## sql
 |  #  | Title           |  Solution       |Difficulty    |Note| 
