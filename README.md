@@ -38,6 +38,7 @@
 ## Stack
 |  #  | Title           |  Solution       |  Time           | Space           | Difficulty    |Note| 
 |-----|---------------- | --------------- | --------------- | --------------- | ------------- |-----|
+155| [Min Stack](https://leetcode.com/problems/min-stack/)      | [Python](./Min-Stack)      | _O(1)_         | _O(n)_          | Easy        ||
 844| [Backspace String Compare](https://leetcode.com/problems/backspace-string-compare/)      | [Python](./Backspace-String-Compare)      | _O(n+m)_         | _O(n+m)_          | Easy        ||
 
 ## sql
