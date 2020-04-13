@@ -4,6 +4,7 @@
 * [Linked List](https://github.com/yicong93/LeetCode#Linked-List)
 * [Hash Table](https://github.com/yicong93/LeetCode#Hash-Table)
 * [Stack](https://github.com/yicong93/LeetCode#Stack)
+* [Tree](https://github.com/yicong93/LeetCode#Tree)
 
 ## Database
 * [SQL](https://github.com/yicong93/LeetCode#sql)
@@ -40,6 +41,11 @@
 |-----|---------------- | --------------- | --------------- | --------------- | ------------- |-----|
 155| [Min Stack](https://leetcode.com/problems/min-stack/)      | [Python](./Min-Stack)      | _O(1)_         | _O(n)_          | Easy        ||
 844| [Backspace String Compare](https://leetcode.com/problems/backspace-string-compare/)      | [Python](./Backspace-String-Compare)      | _O(n+m)_         | _O(n+m)_          | Easy        ||
+
+## Tree
+|  #  | Title           |  Solution       |  Time           | Space           | Difficulty    |Note| 
+|-----|---------------- | --------------- | --------------- | --------------- | ------------- |-----|
+543| [Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/)      | [Python](./Diameter-of-Binary-Tree)      | _O(n)_         | _O(n)_          | Easy        ||
 
 ## sql
 |  #  | Title           |  Solution       |Difficulty    |Note| 
