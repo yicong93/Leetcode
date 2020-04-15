@@ -5,6 +5,7 @@
 * [Hash Table](https://github.com/yicong93/LeetCode#Hash-Table)
 * [Stack](https://github.com/yicong93/LeetCode#Stack)
 * [Tree](https://github.com/yicong93/LeetCode#Tree)
+* [Heap](https://github.com/yicong93/LeetCode#Heap)
 
 ## Database
 * [SQL](https://github.com/yicong93/LeetCode#sql)
@@ -46,6 +47,11 @@
 |  #  | Title           |  Solution       |  Time           | Space           | Difficulty    |Note| 
 |-----|---------------- | --------------- | --------------- | --------------- | ------------- |-----|
 543| [Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/)      | [Python](./Diameter-of-Binary-Tree)      | _O(n)_         | _O(n)_          | Easy        ||
+
+## Heap
+|  #  | Title           |  Solution       |  Time           | Space           | Difficulty    |Note| 
+|-----|---------------- | --------------- | --------------- | --------------- | ------------- |-----|
+1046| [Last Stone Weight](https://leetcode.com/problems/last-stone-weight/)      | [Python](./Last-Stone-Weight)      | _O(nlogn)_         | _O(n)_          | Easy        ||
 
 ## sql
 |  #  | Title           |  Solution       |Difficulty    |Note| 
