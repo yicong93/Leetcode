@@ -39,5 +39,5 @@ class Solution:
             if amount!=0:
                 for j in range(lens):
                     res[j-amount]=s[j]        
-        return ''.join(str(i) for i in res)
+        return ''.join(res)
                
