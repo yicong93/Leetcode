@@ -1,0 +1,43 @@
+You are given a string s containing lowercase English letters, and a matrix shift, where shift[i] = [direction, amount]:
+
+1.direction can be 0 (for left shift) or 1 (for right shift). 
+2.amount is the amount by which string s is to be shifted.
+3.A left shift by 1 means remove the first character of s and append it to the end.
+4.Similarly, a right shift by 1 means remove the last character of s and add it to the beginning.
+Return the final string after all operations.
+
+E.G.
+Input: s = "abc", shift = [[0,1],[1,2]]
+Output: "cab"
+Explanation: 
+[0,1] means shift to left by 1. "abc" -> "bca"
+[1,2] means shift to right by 2. "bca" -> "cab"
+
+Hint:
+You may notice that left shift cancels the right shift, 
+so count the total left shift times (may be negative if the final result is right shift), and perform it once.
+
+class Solution:
+    def stringShift(self, s: str, shift: List[List[int]]) -> str:
+        amount=0
+        lens=len(s)
+        res=[0]*lens
+        for i in shift:
+            if i[0]==0:
+                amount-=i[1]
+            else:
+                amount+=i[1]
+        if amount%lens==0:
+            return s 
+        elif amount>0:
+            amount=amount%lens
+            if amount!=0:
+                for j in range(lens):
+                    res[(j+amount)%lens]=s[j]
+        else:
+            amount=abs(amount)%lens
+            if amount!=0:
+                for j in range(lens):
+                    res[j-amount]=s[j]        
+        return ''.join(str(i) for i in res)
+               
