@@ -1,11 +1,13 @@
 ## Algorithms
 
 * [Array](https://github.com/yicong93/LeetCode#Array)
+* [String](https://github.com/yicong93/LeetCode#String)
 * [Linked List](https://github.com/yicong93/LeetCode#Linked-List)
 * [Hash Table](https://github.com/yicong93/LeetCode#Hash-Table)
 * [Stack](https://github.com/yicong93/LeetCode#Stack)
 * [Tree](https://github.com/yicong93/LeetCode#Tree)
 * [Heap](https://github.com/yicong93/LeetCode#Heap)
+
 
 ## Database
 * [SQL](https://github.com/yicong93/LeetCode#sql)
@@ -17,6 +19,13 @@
 53| [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)      | [Python](./Maximum-Subarray)      | _O(n)_         | _O(1)_          | Easy        ||
 122| [Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/)      | [Python](./Best-Time-to-Buy-and-Sell-Stock-II)      | _O(n)_         | _O(1)_          | Easy        ||
 283| [Move Zeroes](https://leetcode.com/problems/move-zeroes/)      | [Python](./Move-Zeroes)      | _O(n)_         | _O(1)_          | Easy        ||
+
+
+## String
+|  #  | Title           |  Solution       |  Time           | Space           | Difficulty    |Note| 
+|-----|---------------- | --------------- | --------------- | --------------- | ------------- |-----|
+| [Perform String Shifts]()      | [Python](./Perform-String-Shifts
+)      | _O(n)_         | _O(1)_          |         ||
 
 
 ## Linked List
