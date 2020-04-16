@@ -1,0 +1,15 @@
+# Write your MySQL query statement below
+select activity from friends group by activity having count(activity) not in
+(
+(select count(*) from friends group by activity order by count(*) desc limit 1) ,
+(select count(*) from friends group by activity order by count(*) limit 1)
+);
+
+
+/* Write your T-SQL query statement below */
+select activity
+from
+(select activity, dense_rank() over(order by count(id) desc) as rk1,
+ dense_rank() over(order by count(id)) as rk2
+from Friends group by activity) a
+ where rk1!=1 and rk2!=1
