@@ -24,8 +24,7 @@
 ## String
 |  #  | Title           |  Solution       |  Time           | Space           | Difficulty    |Note| 
 |-----|---------------- | --------------- | --------------- | --------------- | ------------- |-----|
-| [Perform String Shifts]()      | [Python](./Perform-String-Shifts
-)      | _O(n)_         | _O(1)_          |         ||
+| [Perform String Shifts]()      | [Python](./Perform-String-Shifts)      | _O(n)_         | _O(1)_          |         ||
 
 
 ## Linked List
