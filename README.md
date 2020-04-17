@@ -26,6 +26,7 @@
 |  #  | Title           |  Solution       |  Time           | Space           | Difficulty    |Note| 
 |-----|---------------- | --------------- | --------------- | --------------- | ------------- |-----|
 #| [Perform String Shifts]()      | [Python](./Perform-String-Shifts)      | _O(n)_         | _O(n)_          |         ||
+678| [Valid Parenthesis String](https://leetcode.com/problems/valid-parenthesis-string/)      | [Python](./Valid-Parenthesis-String)      | _O(n)_         | _O(1)_          | Medium        ||
 
 
 ## Linked List
