@@ -1,0 +1,30 @@
+class Solution(object):
+    def checkValidString(self, s):
+        """
+        :type s: str
+        :rtype: bool
+        """
+#         lo = hi = 0
+#         for c in s:
+#             lo += 1 if c == '(' else -1
+#             hi += 1 if c != ')' else -1
+#             if hi < 0: return False
+#             lo = max(lo, 0)
+
+#         return lo==0
+          
+    
+        l_bound=r_bound=0
+        n=len(s)
+        for i in range(len(s)):
+                if s[i] in "*(":
+                    l_bound+=1
+                else:
+                    l_bound-=1
+                if s[n-i-1] in "*)":
+                    r_bound+=1
+                else:
+                    r_bound-=1
+                if l_bound<0 or r_bound<0:
+                    return False
+        return True
