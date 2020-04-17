@@ -68,7 +68,7 @@
 ## Depth First Search
 |  #  | Title           |  Solution       |  Time           | Space           | Difficulty    |Note| 
 |-----|---------------- | --------------- | --------------- | --------------- | ------------- |-----|
-200| [ Number of Islands](https://leetcode.com/problems/number-of-islands/)      | [Python](./ Number-of-Islands)      | _O(m*n)_         | _O(m*n)_          | Medium        ||
+200| [ Number of Islands](https://leetcode.com/problems/number-of-islands/)      | [Python](./Number-of-Islands)      | _O(m*n)_         | _O(m*n)_          | Medium        ||
 
 ## sql
 |  #  | Title           |  Solution       |Difficulty    |Note| 
