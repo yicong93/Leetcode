@@ -80,3 +80,4 @@
 1384| [Total Sales Amount by Year](https://leetcode.com/problems/total-sales-amount-by-year/)      | [MY SQL/MS SQL SERVER](./Total-Sales-Amount-by-Year)      | Hard        |🔒|
 1398| [Customers Who Bought Products A and B but Not C](https://leetcode.com/problems/customers-who-bought-products-a-and-b-but-not-c/)      | [MY SQL](./Customers-Who-Bought-Products-A-and-B-but-Not-C)      | Medium       |🔒|
 1407| [Top Travellers](https://leetcode.com/problems/top-travellers/)      | [MY SQL](./Top-Travellers)      | Easy        ||
+1412| [Find the Quiet Students in All Exams](https://leetcode.com/problems/find-the-quiet-students-in-all-exams/)      | [MY SQL/MS SQL SERVER](./Find-the-Quiet-Students-in-All-Exams)      | Hard        |🔒|
