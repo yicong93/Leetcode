@@ -22,3 +22,8 @@ class Solution(object):
         self.dfs(grid,i-1,j)
         self.dfs(grid,i,j+1)
         self.dfs(grid,i,j-1)
+
+
+Time: O(M×N) where M is the number of rows and N is the number of columns.
+
+Space: worst case O(M×N) in case that the grid map is filled with lands where DFS goes by M×N deep.
