@@ -1,0 +1,39 @@
+# Write your MySQL query statement below
+SELECT student_id, student_name
+FROM Student
+WHERE student_id NOT IN
+-- select ids who has either the highest score or the lowest score in any exam
+(SELECT DISTINCT student_id
+FROM Exam
+WHERE (exam_id, score) IN
+(SELECT exam_id, MAX(score) AS score
+FROM Exam
+GROUP BY exam_id
+UNION ALL
+SELECT exam_id, MIN(score) AS score
+FROM Exam
+GROUP BY exam_id)
+)
+AND student_id IN
+-- select ids who participated in exams
+(SELECT DISTINCT student_id
+FROM Exam);
+
+
+/* Write your T-SQL query statement below */
+with a as(
+select exam_id,min(score) as mins, max(score) as maxs
+from Exam group by exam_id),
+b as(
+select b.exam_id,b.student_id,b.score,a.mins,a.maxs
+from Exam b join a on b.exam_id=a.exam_id)
+
+select c.student_id,s.student_name
+from
+(select distinct student_id
+from b
+where 
+student_id not in
+(select distinct student_id from b where score=mins or score=maxs)) c
+join Student s on c.student_id=s.student_id
+order by c.student_id;
