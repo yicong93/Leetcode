@@ -7,6 +7,7 @@
 * [Stack](https://github.com/yicong93/LeetCode#Stack)
 * [Tree](https://github.com/yicong93/LeetCode#Tree)
 * [Heap](https://github.com/yicong93/LeetCode#Heap)
+* [Depth First Search](https://github.com/yicong93/LeetCode#Depth-First-Search)
 
 
 ## Database
@@ -63,6 +64,11 @@
 |  #  | Title           |  Solution       |  Time           | Space           | Difficulty    |Note| 
 |-----|---------------- | --------------- | --------------- | --------------- | ------------- |-----|
 1046| [Last Stone Weight](https://leetcode.com/problems/last-stone-weight/)      | [Python](./Last-Stone-Weight)      | _O(nlogn)_         | _O(n)_          | Easy        ||
+
+## Depth First Search
+|  #  | Title           |  Solution       |  Time           | Space           | Difficulty    |Note| 
+|-----|---------------- | --------------- | --------------- | --------------- | ------------- |-----|
+200| [ Number of Islands](https://leetcode.com/problems/number-of-islands/)      | [Python](./ Number-of-Islands)      | _O(m*n)_         | _O(m*n)_          | Medium        ||
 
 ## sql
 |  #  | Title           |  Solution       |Difficulty    |Note| 
