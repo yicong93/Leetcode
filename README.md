@@ -8,7 +8,7 @@
 * [Tree](https://github.com/yicong93/LeetCode#Tree)
 * [Heap](https://github.com/yicong93/LeetCode#Heap)
 * [Depth First Search](https://github.com/yicong93/LeetCode#Depth-First-Search)
-
+* [Dynamic Programming](https://github.com/yicong93/LeetCode#Dynamic-Programming)
 
 ## Database
 * [SQL](https://github.com/yicong93/LeetCode#sql)
@@ -69,6 +69,14 @@
 |  #  | Title           |  Solution       |  Time           | Space           | Difficulty    |Note| 
 |-----|---------------- | --------------- | --------------- | --------------- | ------------- |-----|
 200| [ Number of Islands](https://leetcode.com/problems/number-of-islands/)      | [Python](./Number-of-Islands)      | _O(m*n)_         | _O(m*n)_          | Medium        ||
+
+## Dynamic Programming
+|  #  | Title           |  Solution       |  Time           | Space           | Difficulty    |Note| 
+|-----|---------------- | --------------- | --------------- | --------------- | ------------- |-----|
+64| [Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/)      | [Python](./Minimum-Path-Sum)      | _O(m*n)_         | _O(1)_          | Medium        ||
+
+
+
 
 ## sql
 |  #  | Title           |  Solution       |Difficulty    |Note| 
