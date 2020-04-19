@@ -5,6 +5,7 @@
 * [Linked List](https://github.com/yicong93/LeetCode#Linked-List)
 * [Hash Table](https://github.com/yicong93/LeetCode#Hash-Table)
 * [Stack](https://github.com/yicong93/LeetCode#Stack)
+* [Binary Search](https://github.com/yicong93/LeetCode#Binary-Search)
 * [Tree](https://github.com/yicong93/LeetCode#Tree)
 * [Heap](https://github.com/yicong93/LeetCode#Heap)
 * [Depth First Search](https://github.com/yicong93/LeetCode#Depth-First-Search)
@@ -54,6 +55,11 @@
 |-----|---------------- | --------------- | --------------- | --------------- | ------------- |-----|
 155| [Min Stack](https://leetcode.com/problems/min-stack/)      | [Python](./Min-Stack)      | _O(1)_         | _O(n)_          | Easy        ||
 844| [Backspace String Compare](https://leetcode.com/problems/backspace-string-compare/)      | [Python](./Backspace-String-Compare)      | _O(n+m)_         | _O(n+m)_          | Easy        ||
+
+## Binary Search
+|  #  | Title           |  Solution       |  Time           | Space           | Difficulty    |Note| 
+|-----|---------------- | --------------- | --------------- | --------------- | ------------- |-----|
+33| [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)      | [Python](./Search-in-Rotated-Sorted-Array)      | _O(logn)_         | _O(1)_          | Medium        ||
 
 ## Tree
 |  #  | Title           |  Solution       |  Time           | Space           | Difficulty    |Note| 
