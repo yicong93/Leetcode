@@ -69,6 +69,7 @@
 ## Heap
 |  #  | Title           |  Solution       |  Time           | Space           | Difficulty    |Note| 
 |-----|---------------- | --------------- | --------------- | --------------- | ------------- |-----|
+1008| [Construct Binary Search Tree from Preorder Traversal](https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/)      | [Python](./Construct-Binary-Search-Tree-from-Preorder-Traversal)      | _O(n)_         | _O(n)_          | Medium        ||
 1046| [Last Stone Weight](https://leetcode.com/problems/last-stone-weight/)      | [Python](./Last-Stone-Weight)      | _O(nlogn)_         | _O(n)_          | Easy        ||
 
 ## Depth First Search
