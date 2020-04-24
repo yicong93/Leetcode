@@ -1,0 +1,16 @@
+# Write your MySQL query statement below
+select q.id, q.year, ifnull(n.npv,0) as npv
+from Queries q left join NPV n on q.id=n.id and q.year=n.year
+
+
+
+/* Write your T-SQL query statement below */
+-- SELECT A.id, A.year, COALESCE(B.npv, 0) as npv
+-- FROM Queries AS A
+-- LEFT OUTER JOIN NPV AS B
+-- ON A.id = B.id AND A.year = B.year
+
+SELECT A.id, A.year, isnull(B.npv, 0) as npv
+FROM Queries AS A
+LEFT OUTER JOIN NPV AS B
+ON A.id = B.id AND A.year = B.year
