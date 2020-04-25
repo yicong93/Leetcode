@@ -1,0 +1,23 @@
+# Write your MySQL query statement below
+# SELECT
+# IFNULL((SELECT DISTINCT Salary
+# FROM
+#     Employee
+# ORDER BY Salary DESC
+# LIMIT 1 OFFSET 1),NULL) AS SecondHighestSalary
+
+SELECT MAX(Salary) AS SecondHighestSalary
+FROM Employee
+WHERE Salary < (SELECT MAX(Salary) FROM Employee)
+
+# MAX returns NULL when there is no row to select.
+
+
+
+/* Write your T-SQL query statement below */
+select 
+isnull
+((select distinct a.Salary 
+ from (select Salary, dense_rank() over(order by Salary desc) as ranks
+from Employee) as a
+where ranks=2),null) as SecondHighestSalary
