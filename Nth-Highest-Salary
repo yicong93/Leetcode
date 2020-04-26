@@ -1,0 +1,26 @@
+MYSQL:
+
+CREATE FUNCTION getNthHighestSalary(N INT) RETURNS INT
+BEGIN
+  RETURN (
+      # Write your MySQL query statement below.
+      select distinct e.Salary
+      from Employee e
+      where (select count(distinct m.Salary) as cnt from Employee m where e.Salary<m.Salary)=N-1
+  );
+END
+
+
+
+MS SQL:
+
+CREATE FUNCTION getNthHighestSalary(@N INT) RETURNS INT AS
+BEGIN
+    RETURN (
+        select distinct a.Salary 
+        from
+        (select Salary,dense_rank() over(order by Salary desc) as ranks
+        from Employee) a
+        where ranks=@N
+    );
+END
