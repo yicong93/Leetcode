@@ -10,6 +10,9 @@ class Solution:
                     grid[i][j]=grid[i][j]+min(grid[i][j+1],grid[i+1][j])
         return grid[0][0]
         
+        # time:o(m*n)
+        # space:o(1)
+
         
         
         
