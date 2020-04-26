@@ -94,6 +94,7 @@
 |-----|---------------- | --------------- |------------- |-----|
 175| [Combine Two Tables](https://leetcode.com/problems/combine-two-tables/)      | [MY SQL](./Combine-Two-Tables)      | Easy        ||
 176| [Second Highest Salary](https://leetcode.com/problems/second-highest-salary/)      | [MY SQL/MS SQL](./Second-Highest-Salary)      | Easy        ||
+177| [Nth Highest Salary](https://leetcode.com/problems/nth-highest-salary/)      | [MY SQL/MS SQL](./Nth-Highest-Salary)      | Medium        ||
 1050| [Actors and Directors Who Cooperated At Least Three Times](https://leetcode.com/problems/actors-and-directors-who-cooperated-at-least-three-times/)      | [MY SQL](./Actors-and-Directors-Who-Cooperated-At-Least-Three-Times)      | Easy        ||
 1126| [Active Businesses](https://leetcode.com/problems/active-businesses/)      | [MY SQL](./Active-Businesses)      | Medium       |🔒|
 1336| [Number of Transactions per Visit](https://leetcode.com/problems/number-of-transactions-per-visit/)      | [MS SQL SERVER](./Number-of-Transactions-per-Visit)      | Hard        |🔒|
