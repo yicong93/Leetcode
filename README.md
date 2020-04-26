@@ -83,6 +83,8 @@
 |  #  | Title           |  Solution       |  Time           | Space           | Difficulty    |Note| 
 |-----|---------------- | --------------- | --------------- | --------------- | ------------- |-----|
 64| [Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/)      | [Python](./Minimum-Path-Sum)      | _O(m*n)_         | _O(1)_          | Medium        ||
+1143| [Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/)      | [Python](./Longest-Common-Subsequence)      | _O(m*n)_         | _O(m*n)_          | Medium        ||
+
 
 
 
