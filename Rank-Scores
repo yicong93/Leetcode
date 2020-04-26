@@ -1,0 +1,12 @@
+MySQL:
+
+select s.Score, (ifnull((select count(distinct c.Score) from Scores c where s.Score<c.Score),0)+1) Rank
+from Scores s
+order by s.Score desc
+
+
+
+MS SQL:
+
+select Score, dense_rank() over(order by Score desc) as Rank
+from Scores 
