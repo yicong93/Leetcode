@@ -1,0 +1,54 @@
+class Solution:
+    def maximalSquare(self, matrix: List[List[str]]) -> int:
+        if not matrix or not matrix[0]:
+            return 0
+        n, m = len(matrix), len(matrix[0])
+        # to eliminate first-row-problem plus-sized matrix is created and from [0, 0] element we actually look at mat2[-1,-1] == mat2[n, m]
+        mat2 = [[0 for _ in range(m+1)] for __ in range(n+1)]
+        maxlen=0
+        for i in range(n):
+            for j in range(m):
+                 if matrix[i][j] == '1':
+                     mat2[i][j] = min(mat2[i - 1][j - 1], mat2[i - 1][j], mat2[i][j - 1]) + 1 
+                     maxlen=max(maxlen,mat2[i][j])
+                 else:
+                    mat2[i][j]=0
+        return maxlen ** 2
+        
+        
+    # time:o(m*n)
+    # space:o(m*n)
+
+
+
+
+
+
+class Solution:
+    def maximalSquare(self, matrix: List[List[str]]) -> int:
+        if not matrix or not matrix[0]:
+            return 0
+        rows=len(matrix)
+        cols=len(matrix[0])
+        maxsqlen=0
+        for i in range(rows):
+            for j in range(cols):
+                if matrix[i][j]=='1':
+                    sqlen=1
+                    flag=True
+                    while sqlen+i<rows and sqlen+j<cols and flag:
+                        for k in range(j,sqlen+j):
+                            if matrix[sqlen+i][k]=='0':
+                                flag=False
+                                break
+                        for k in range(i,sqlen+i+1):
+                            if matrix[k][sqlen+j]=='0':
+                                flag=False
+                                break
+                        if flag:
+                            sqlen+=1
+                    maxsqlen=max(maxsqlen,sqlen)
+        return maxsqlen*maxsqlen
+    
+    # time:o((m*n)^2)
+    # space:o(1)
