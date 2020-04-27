@@ -1,0 +1,19 @@
+MS SQL:
+
+SELECT DISTINCT num as ConsecutiveNums
+FROM
+(
+SELECT num,LEAD(num) OVER(ORDER BY id) AS lead, LAG(num) OVER (ORDER BY id) AS lag
+FROM Logs
+)t
+WHERE num=lead and num=lag
+
+
+
+Wrong answer:
+Reason:This will not work if there are gaps in id values.
+
+select distinct a.num as ConsecutiveNums
+from Logs a
+inner join Logs b on b.id=a.id+1 and b.num=a.num
+inner join Logs c on c.id=a.id+2 and c.num=a.num;
