@@ -1,0 +1,11 @@
+class Solution:
+    def largestUniqueNumber(self, A: List[int]) -> int:
+        import collections
+        dic=collections.defaultdict(int)
+        res=-1
+        for i in A:
+            dic[i]+=1
+        for i in dic:
+            if dic[i]==1:
+                res=max(res,i)
+        return res
