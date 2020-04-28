@@ -99,6 +99,7 @@
 177| [Nth Highest Salary](https://leetcode.com/problems/nth-highest-salary/)      | [MY SQL/MS SQL](./Nth-Highest-Salary)      | Medium        ||
 178| [Rank Scores](https://leetcode.com/problems/rank-scores/)      | [MY SQL/MS SQL](./Rank-Scores)      | Medium        ||
 180| [Consecutive Numbers](https://leetcode.com/problems/consecutive-numbers/)      | [MS SQL](./Consecutive-Numbers)      | Medium        ||
+181| [Employees Earning More Than Their Managers](https://leetcode.com/problems/employees-earning-more-than-their-managers/)      | [MY SQL](./Employees-Earning-More-Than-Their-Managers)      | Easy        ||
 1050| [Actors and Directors Who Cooperated At Least Three Times](https://leetcode.com/problems/actors-and-directors-who-cooperated-at-least-three-times/)      | [MY SQL](./Actors-and-Directors-Who-Cooperated-At-Least-Three-Times)      | Easy        ||
 1126| [Active Businesses](https://leetcode.com/problems/active-businesses/)      | [MY SQL](./Active-Businesses)      | Medium       |🔒|
 1336| [Number of Transactions per Visit](https://leetcode.com/problems/number-of-transactions-per-visit/)      | [MS SQL SERVER](./Number-of-Transactions-per-Visit)      | Hard        |🔒|
