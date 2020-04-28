@@ -50,6 +50,7 @@
 525| [Contiguous Array](https://leetcode.com/problems/contiguous-array/)      | [Python](./Contiguous-Array)      | _O(n)_         | _O(n)_          | Medium         ||
 560| [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/)      | [Python](./Subarray-Sum-Equals-K)      | _O(n)_         | _O(n)_          | Medium         ||
 811| [Subdomain Visit Count](https://leetcode.com/problems/subdomain-visit-count/)      | [Python](./Subdomain-Visit-Count)      | _O(n)_         | _O(n)_          | Easy        ||
+1133| [Largest Unique Number](https://leetcode.com/problems/largest-unique-number/)      | [Python](./Largest-Unique-Number)      | _O(n)_         | _O(n)_          | Easy     ||    
 
 
 ## Stack
