@@ -1,0 +1,26 @@
+# Write your MySQL query statement below
+SELECT
+    Department.name AS 'Department',
+    Employee.name AS 'Employee',
+    Salary
+FROM
+    Employee
+        JOIN
+    Department ON Employee.DepartmentId = Department.Id
+WHERE
+    (Employee.DepartmentId , Salary) IN
+    (   SELECT
+            DepartmentId, MAX(Salary)
+        FROM
+            Employee
+        GROUP BY DepartmentId
+	);
+  
+  
+MS SQL:
+  
+select a.Department,a.Employee, a.Salary
+from
+(select d.Name as Department,e.Name as Employee,e.Salary, dense_rank() over(partition by d.Name order by e.Salary desc) as ranks
+from Department d join Employee e on d.Id=e.DepartmentId) a
+where a.ranks=1;
