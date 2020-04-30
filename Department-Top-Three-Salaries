@@ -1,0 +1,18 @@
+# Write your MySQL query statement below
+select a.Department,a.Employee,a.Salary
+from
+(select e.Name as Employee,e.Salary, d.Name as Department, 
+ (select count(distinct Salary)
+  from Employee where Salary>=e.Salary and DepartmentId=e.DepartmentId) as ranks
+from Employee e join Department d on e.DepartmentId=d.Id) a
+where a.ranks<=3;
+
+
+
+
+MS SQL:
+select a.Department,a.Employee,a.Salary
+from
+(select d.Name as Department, e.Name as Employee,e.Salary, dense_rank() over(partition by d.Name order by e.Salary desc) as ranks
+from Employee e join Department d on e.DepartmentId=d.Id) a
+where a.ranks<4;
