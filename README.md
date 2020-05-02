@@ -107,7 +107,7 @@
 184| [Department Highest Salary](https://leetcode.com/problems/department-highest-salary/)      | [MY SQL/MS SQL](./Department-Highest-Salary)      | Medium        ||
 185| [Department Top Three Salaries](https://leetcode.com/problems/department-top-three-salaries/)      | [MY SQL/MS SQL](./Department-Top-Three-Salaries)      | Hard        ||
 196| [Delete Duplicate Emails](https://leetcode.com/problems/delete-duplicate-emails/)      | [MY SQL](./Delete-Duplicate-Emails)      | Easy       ||
-197| [Rising Temperature](https://leetcode.com/problems/rising-temperature/)      | [MY SQL](./Rising-Temperature)      | Easy       ||
+197| [Rising Temperature](https://leetcode.com/problems/rising-temperature/)      | [MY SQL/MS SQL](./Rising-Temperature)      | Easy       ||
 1050| [Actors and Directors Who Cooperated At Least Three Times](https://leetcode.com/problems/actors-and-directors-who-cooperated-at-least-three-times/)      | [MY SQL](./Actors-and-Directors-Who-Cooperated-At-Least-Three-Times)      | Easy        ||
 1126| [Active Businesses](https://leetcode.com/problems/active-businesses/)      | [MY SQL](./Active-Businesses)      | Medium       |🔒|
 1336| [Number of Transactions per Visit](https://leetcode.com/problems/number-of-transactions-per-visit/)      | [MS SQL SERVER](./Number-of-Transactions-per-Visit)      | Hard        |🔒|
