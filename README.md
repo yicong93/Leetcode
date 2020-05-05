@@ -112,6 +112,7 @@
 511| [Game Play Analysis I](https://leetcode.com/problems/game-play-analysis-i/)      | [MY SQL](./Game-Play-Analysis-I)      | Easy       ||
 512| [Game Play Analysis II](https://leetcode.com/problems/game-play-analysis-ii/)      | [MY SQL/MS SQL](./Game-Play-Analysis-II)      | Easy       ||
 534| [Game Play Analysis III](https://leetcode.com/problems/game-play-analysis-iii/)      | [MY SQL/MS SQL](./Game-Play-Analysis-III)      | Medium       ||
+550| [Game Play Analysis IV](https://leetcode.com/problems/game-play-analysis-iv/)      | [MY SQL](./Game-Play-Analysis-IV)      | Medium       ||
 1050| [Actors and Directors Who Cooperated At Least Three Times](https://leetcode.com/problems/actors-and-directors-who-cooperated-at-least-three-times/)      | [MY SQL](./Actors-and-Directors-Who-Cooperated-At-Least-Three-Times)      | Easy        ||
 1126| [Active Businesses](https://leetcode.com/problems/active-businesses/)      | [MY SQL](./Active-Businesses)      | Medium       |🔒|
 1336| [Number of Transactions per Visit](https://leetcode.com/problems/number-of-transactions-per-visit/)      | [MS SQL SERVER](./Number-of-Transactions-per-Visit)      | Hard        |🔒|
