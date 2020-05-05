@@ -108,6 +108,7 @@
 185| [Department Top Three Salaries](https://leetcode.com/problems/department-top-three-salaries/)      | [MY SQL/MS SQL](./Department-Top-Three-Salaries)      | Hard        ||
 196| [Delete Duplicate Emails](https://leetcode.com/problems/delete-duplicate-emails/)      | [MY SQL](./Delete-Duplicate-Emails)      | Easy       ||
 197| [Rising Temperature](https://leetcode.com/problems/rising-temperature/)      | [MY SQL/MS SQL](./Rising-Temperature)      | Easy       ||
+262| [Trips and Users](https://leetcode.com/problems/trips-and-users/)      | [MY SQL](./Trips-and-Users)      | Hard       ||
 511| [Game Play Analysis I](https://leetcode.com/problems/game-play-analysis-i/)      | [MY SQL](./Game-Play-Analysis-I)      | Easy       ||
 512| [Game Play Analysis II](https://leetcode.com/problems/game-play-analysis-ii/)      | [MY SQL/MS SQL](./Game-Play-Analysis-II)      | Easy       ||
 1050| [Actors and Directors Who Cooperated At Least Three Times](https://leetcode.com/problems/actors-and-directors-who-cooperated-at-least-three-times/)      | [MY SQL](./Actors-and-Directors-Who-Cooperated-At-Least-Three-Times)      | Easy        ||
