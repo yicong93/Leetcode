@@ -1,0 +1,25 @@
+# Write your MySQL query statement below
+select player_id,device_id
+from Activity
+where (player_id, event_date) in 
+(select player_id,min(event_date) as min_date
+from Activity
+group by player_id);
+
+
+# select c.player_id,c.device_id
+# from 
+# (select player_id,min(event_date) as min_date
+# from Activity
+# group by player_id) a join Activity c on a.player_id=c.player_id and a.min_date=c.event_date;
+
+
+
+
+
+MS SQL:
+select player_id, device_id
+from
+(select distinct player_id, device_id, row_number() over(partition by player_id order by event_date asc) rk
+from Activity ) t
+where rk = 1;
