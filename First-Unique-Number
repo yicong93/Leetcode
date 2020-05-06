@@ -1,0 +1,66 @@
+You have a queue of integers, you need to retrieve the first unique integer in the queue.
+
+Implement the FirstUnique class:
+
+FirstUnique(int[] nums) Initializes the object with the numbers in the queue.
+int showFirstUnique() returns the value of the first unique integer of the queue, and returns -1 if there is no such integer.
+void add(int value) insert value to the queue.
+
+Example 1:
+Input: 
+["FirstUnique","showFirstUnique","add","showFirstUnique","add","showFirstUnique","add","showFirstUnique"]
+[[[2,3,5]],[],[5],[],[2],[],[3],[]]
+Output: 
+[null,2,null,2,null,3,null,-1]
+Explanation: 
+FirstUnique firstUnique = new FirstUnique([2,3,5]);
+firstUnique.showFirstUnique(); // return 2
+firstUnique.add(5);            // the queue is now [2,3,5,5]
+firstUnique.showFirstUnique(); // return 2
+firstUnique.add(2);            // the queue is now [2,3,5,5,2]
+firstUnique.showFirstUnique(); // return 3
+firstUnique.add(3);            // the queue is now [2,3,5,5,2,3]
+firstUnique.showFirstUnique(); // return -1
+
+
+import collections
+
+class FirstUnique:
+    def __init__(self, nums: List[int]):
+        self._deque=collections.deque(nums)
+        self._is_unique={}
+        for num in nums:
+            self.add(num)
+
+    def showFirstUnique(self) -> int:
+        while self._deque and not self._is_unique[self._deque[0]]:
+              self._deque.popleft()
+        if self._deque:
+            return self._deque[0]
+        return -1
+
+    def add(self, value: int) -> None:
+        if value not in self._is_unique:
+            self._is_unique[value]=True
+        else:
+            self._is_unique[value]=False
+        self._deque.append(value)
+        return
+ 
+ 
+ time: 
+ Let K be the length of the initial array passed into the constructor.
+ constructor: o(K)
+ showFirstUnique(): O(1)(amortized)
+ add(): o(1)
+ 
+ space: o(n)
+ 
+ 
+deque.count(x): Count the number of deque elements equal to x.
+deque. popleft() is O(1) -- a constant time operation.
+deque.append(),deque.appendleft(),deque.pop()
+ 
+ 
+ 
+ 
