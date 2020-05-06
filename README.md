@@ -8,6 +8,7 @@
 * [Binary Search](https://github.com/yicong93/LeetCode#Binary-Search)
 * [Tree](https://github.com/yicong93/LeetCode#Tree)
 * [Heap](https://github.com/yicong93/LeetCode#Heap)
+* [Queue](https://github.com/yicong93/LeetCode#Queue)
 * [Depth First Search](https://github.com/yicong93/LeetCode#Depth-First-Search)
 * [Dynamic Programming](https://github.com/yicong93/LeetCode#Dynamic-Programming)
 
@@ -77,6 +78,11 @@
 |  #  | Title           |  Solution       |  Time           | Space           | Difficulty    |Note| 
 |-----|---------------- | --------------- | --------------- | --------------- | ------------- |-----|
 1046| [Last Stone Weight](https://leetcode.com/problems/last-stone-weight/)      | [Python](./Last-Stone-Weight)      | _O(nlogn)_         | _O(n)_          | Easy        ||
+
+## Queue
+|  #  | Title           |  Solution       |  Time           | Space           | Difficulty    |Note| 
+|-----|---------------- | --------------- | --------------- | --------------- | ------------- |-----|
+| [First Unique Number](https://leetcode.com/explore/challenge/card/30-day-leetcoding-challenge/531/week-4/3313/)      | [Python](./First-Unique-Number)      |          |          |         ||
 
 ## Depth First Search
 |  #  | Title           |  Solution       |  Time           | Space           | Difficulty    |Note| 
