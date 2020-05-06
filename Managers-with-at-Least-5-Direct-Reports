@@ -1,0 +1,7 @@
+select e.Name
+from 
+(select ManagerId, count(distinct Id) as counts
+from Employee
+group by ManagerId
+having counts>4) a 
+join Employee e on a.ManagerId=e.Id;
