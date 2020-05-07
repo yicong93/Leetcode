@@ -122,6 +122,7 @@
 550| [Game Play Analysis IV](https://leetcode.com/problems/game-play-analysis-iv/)      | [MY SQL](./Game-Play-Analysis-IV)      | Medium       ||
 569| [Median Employee Salary](https://leetcode.com/problems/median-employee-salary/)      | [MS SQL](./Median-Employee-Salary)      | Hard       ||
 570| [Managers with at Least 5 Direct Reports](https://leetcode.com/problems/managers-with-at-least-5-direct-reports/)      | [MY SQL](./Managers-with-at-Least-5-Direct-Reports)      | Medium       ||
+571| [Find Median Given Frequency of Numbers](https://leetcode.com/problems/find-median-given-frequency-of-numbers/)      | [MY SQL/MS SQL](./Find-Median-Given-Frequency-of-Numbers)      | Hard       ||
 1050| [Actors and Directors Who Cooperated At Least Three Times](https://leetcode.com/problems/actors-and-directors-who-cooperated-at-least-three-times/)      | [MY SQL](./Actors-and-Directors-Who-Cooperated-At-Least-Three-Times)      | Easy        ||
 1126| [Active Businesses](https://leetcode.com/problems/active-businesses/)      | [MY SQL](./Active-Businesses)      | Medium       |🔒|
 1336| [Number of Transactions per Visit](https://leetcode.com/problems/number-of-transactions-per-visit/)      | [MS SQL SERVER](./Number-of-Transactions-per-Visit)      | Hard        |🔒|
