@@ -1,0 +1,5 @@
+select a.Id,a.Company,a.Salary
+from
+(select Id, Company, Salary, row_number() over(partition by Company order by Salary,Id) as rnk_as, row_number() over(partition by Company order by Salary desc, Id desc) as rnk_de
+from Employee) a
+where a.rnk_as between a.rnk_de-1 and a.rnk_de+1;
