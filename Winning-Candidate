@@ -1,0 +1,8 @@
+# Write your MySQL query statement below
+select winner.Name 
+from 
+(select v.CandidateId,c.Name,count(v.id) as counts
+from Vote v join Candidate c on v.CandidateId = c.id
+group by v.CandidateId, c.Name
+order by counts desc
+limit 1) winner;
