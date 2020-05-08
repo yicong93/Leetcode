@@ -1,0 +1,28 @@
+MY SQL:
+
+select e1.Id,e1.Month,(ifnull(e1.Salary,0)+ifnull(e2.Salary,0)+ifnull(e3.Salary,0)) as Salary
+from 
+(select Id, max(Month) as maxmonth from Employee group by Id having count(*)>1) max_months 
+left join Employee e1 on (max_months.Id=e1.Id and max_months.maxmonth>e1.Month) 
+left join Employee e2 on (e1.Id=e2.Id and e1.Month=e2.Month+1)
+left join Employee e3 on (e1.Id=e3.Id and e1.Month=e3.Month+2)
+order by e1.Id,e1.Month desc;
+
+
+
+
+MS SQL:
+
+SELECT employee.id as id, month, sum(salary) over (partition by employee.id order by month rows between 2 preceding and current row) as Salary
+FROM employee
+JOIN (select id, max(month) as max_month FROM employee GROUP BY id) emp
+ON employee.id = emp.id AND employee.month <> emp.max_month
+ORDER by 1 , 2 desc;
+
+
+select id, month, salary from
+(select id, month,
+sum(salary)over(partition by id order by month rows between 2 preceding and current row) as salary,
+rank() over(partition by id order by month desc) as rnk
+from employee)sub
+where sub.rnk<>1;
