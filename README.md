@@ -125,6 +125,7 @@
 571| [Find Median Given Frequency of Numbers](https://leetcode.com/problems/find-median-given-frequency-of-numbers/)      | [MY SQL/MS SQL](./Find-Median-Given-Frequency-of-Numbers)      | Hard       ||
 574| [Winning Candidate](https://leetcode.com/problems/winning-candidate/)      | [MY SQL](./Winning-Candidate)      | Medium       ||
 577| [Employee Bonus](https://leetcode.com/problems/employee-bonus/)      | [MY SQL](./Employee-Bonus)      | Easy      ||
+579| [Find Cumulative Salary of an Employee](https://leetcode.com/problems/find-cumulative-salary-of-an-employee/)      | [MY SQL/MS SQL](./Find-Cumulative-Salary-of-an-Employee)      | Hard       ||
 1050| [Actors and Directors Who Cooperated At Least Three Times](https://leetcode.com/problems/actors-and-directors-who-cooperated-at-least-three-times/)      | [MY SQL](./Actors-and-Directors-Who-Cooperated-At-Least-Three-Times)      | Easy        ||
 1126| [Active Businesses](https://leetcode.com/problems/active-businesses/)      | [MY SQL](./Active-Businesses)      | Medium       |🔒|
 1336| [Number of Transactions per Visit](https://leetcode.com/problems/number-of-transactions-per-visit/)      | [MS SQL SERVER](./Number-of-Transactions-per-Visit)      | Hard        |🔒|
