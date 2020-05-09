@@ -30,6 +30,7 @@
 |  #  | Title           |  Solution       |  Time           | Space           | Difficulty    |Note| 
 |-----|---------------- | --------------- | --------------- | --------------- | ------------- |-----|
 #| [Perform String Shifts]()      | [Python](./Perform-String-Shifts)      | _O(n)_         | _O(n)_          |         ||
+20| [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)      | [Python](./Valid-Parentheses)      | _O(n)_         | _O(n)_          | Easy       ||
 55| [Jump Game](https://leetcode.com/problems/jump-game/)      | [Python](./Jump-Game)      | _O(n)_         | _O(1)_          | Medium        ||
 678| [Valid Parenthesis String](https://leetcode.com/problems/valid-parenthesis-string/)      | [Python](./Valid-Parenthesis-String)      | _O(n)_         | _O(1)_          | Medium        ||
 
