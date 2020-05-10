@@ -1,0 +1,24 @@
+class Solution:
+    def fib(self, N: int) -> int:
+        if N<=1:
+            return N
+        return self.fib(N-1) + self.fib(N-2)
+
+time:o(2^n)
+space:o(n)
+
+
+class Solution:
+    def fib(self, N: int) -> int:
+        if N==0 or N==1:
+            return N
+        a=0
+        b=1
+        for i in range(N-1):
+            temp=b
+            b+=a
+            a=temp
+        return b
+
+time:o(n)
+space:(1)
