@@ -131,6 +131,7 @@
 579| [Find Cumulative Salary of an Employee](https://leetcode.com/problems/find-cumulative-salary-of-an-employee/)      | [MY SQL/MS SQL](./Find-Cumulative-Salary-of-an-Employee)      | Hard       ||
 580| [Count Student Number in Departments](https://leetcode.com/problems/count-student-number-in-departments/)      | [MY SQL](./Count-Student-Number-in-Departments)      | Medium       ||
 584| [Find Customer Referee](https://leetcode.com/problems/find-customer-referee/)      | [MY SQL](./Find-Customer-Referee)      | Easy       ||
+585| [Investments in 2016](https://leetcode.com/problems/investments-in-2016/)      | [MY SQL](./Investments-in-2016)      | Medium       ||
 1050| [Actors and Directors Who Cooperated At Least Three Times](https://leetcode.com/problems/actors-and-directors-who-cooperated-at-least-three-times/)      | [MY SQL](./Actors-and-Directors-Who-Cooperated-At-Least-Three-Times)      | Easy        ||
 1126| [Active Businesses](https://leetcode.com/problems/active-businesses/)      | [MY SQL](./Active-Businesses)      | Medium       |🔒|
 1336| [Number of Transactions per Visit](https://leetcode.com/problems/number-of-transactions-per-visit/)      | [MS SQL SERVER](./Number-of-Transactions-per-Visit)      | Hard        |🔒|
