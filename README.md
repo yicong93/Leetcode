@@ -137,8 +137,6 @@
 596| [Classes More Than 5 Students](https://leetcode.com/problems/classes-more-than-5-students/)      | [MY SQL](./Classes-More-Than-5-Students)      | Easy       ||
 597| [Friend Requests I: Overall Acceptance Rate](https://leetcode.com/problems/friend-requests-i-overall-acceptance-rate/)      | [MY SQL](./Friend-Requests-I:-Overall-Acceptance-Rate)      | Easy       ||
 601| [Human Traffic of Stadium](https://leetcode.com/problems/human-traffic-of-stadium/)      | [MY SQL](./Human-Traffic-of-Stadium)      | Hard       ||
-
-
 1050| [Actors and Directors Who Cooperated At Least Three Times](https://leetcode.com/problems/actors-and-directors-who-cooperated-at-least-three-times/)      | [MY SQL](./Actors-and-Directors-Who-Cooperated-At-Least-Three-Times)      | Easy        ||
 1126| [Active Businesses](https://leetcode.com/problems/active-businesses/)      | [MY SQL](./Active-Businesses)      | Medium       |🔒|
 1336| [Number of Transactions per Visit](https://leetcode.com/problems/number-of-transactions-per-visit/)      | [MS SQL SERVER](./Number-of-Transactions-per-Visit)      | Hard        |🔒|
