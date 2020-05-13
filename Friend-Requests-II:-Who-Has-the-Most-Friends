@@ -1,0 +1,26 @@
+# Write your MySQL query statement below
+select a.id, sum(a.num) as num
+from
+(select requester_id as id, count(distinct accepter_id) as num
+from request_accepted 
+group by requester_id
+
+union all
+
+select accepter_id as id, count(distinct requester_id) as num
+from request_accepted 
+group by accepter_id) a
+group by a.id
+order by num desc
+limit 1;
+
+
+
+select a.id, count(distinct id1) as num
+from
+(select requester_id as id, accepter_id as id1 from request_accepted
+union all
+select accepter_id as id, requester_id as id1 from request_accepted) a
+group by a.id
+order by num desc
+limit 1;
