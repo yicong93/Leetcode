@@ -139,6 +139,7 @@
 597| [Friend Requests I: Overall Acceptance Rate](https://leetcode.com/problems/friend-requests-i-overall-acceptance-rate/)      | [MY SQL](./Friend-Requests-I:-Overall-Acceptance-Rate)      | Easy       ||
 601| [Human Traffic of Stadium](https://leetcode.com/problems/human-traffic-of-stadium/)      | [MY SQL](./Human-Traffic-of-Stadium)      | Hard       ||
 602| [Friend Requests II: Who Has the Most Friends](https://leetcode.com/problems/friend-requests-ii-who-has-the-most-friends/)      | [MY SQL](./Friend-Requests-II:-Who-Has-the-Most-Friends)      | Medium       ||
+603| [Consecutive Available Seats](https://leetcode.com/problems/consecutive-available-seats/)      | [MY SQL](./Consecutive-Available-Seats)      | Easy       ||
 1050| [Actors and Directors Who Cooperated At Least Three Times](https://leetcode.com/problems/actors-and-directors-who-cooperated-at-least-three-times/)      | [MY SQL](./Actors-and-Directors-Who-Cooperated-At-Least-Three-Times)      | Easy        ||
 1126| [Active Businesses](https://leetcode.com/problems/active-businesses/)      | [MY SQL](./Active-Businesses)      | Medium       |🔒|
 1336| [Number of Transactions per Visit](https://leetcode.com/problems/number-of-transactions-per-visit/)      | [MS SQL SERVER](./Number-of-Transactions-per-Visit)      | Hard        |🔒|
