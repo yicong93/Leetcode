@@ -1,0 +1,22 @@
+# Write your MySQL query statement below
+select id, (case when p_id is null then "Root" 
+                 when id in (select p_id from tree) then "Inner"
+                else "Leaf" end) Type
+from tree 
+order by id;
+
+select id,
+    case when p_id is null then 'Root'
+         when id not in (select t.p_id from tree t where p_id is not null) then 'Leaf'
+         else 'Inner'
+    end as Type
+from tree
+order by id
+;
+
+
+Do not use NOT IN (collection) if there is NULL value in this collection. Instead, try to use IN!
+
+x NOT IN (...) is defined as a series of comparisons between x and each of the values returned by the subquery. 
+SQL uses three-value logic, for which the three possible values of a logical expression are true, false or unknown. 
+Comparison of a value to a NULL is unknown and if any one of those NOT IN comparisons is unknown then the result is also deemed to be unknown.
