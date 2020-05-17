@@ -142,6 +142,7 @@
 603| [Consecutive Available Seats](https://leetcode.com/problems/consecutive-available-seats/)      | [MY SQL](./Consecutive-Available-Seats)      | Easy       ||
 607| [Sales Person](https://leetcode.com/problems/sales-person/)      | [MY SQL](./Sales-Person)      | Easy       ||
 608| [Tree Node](https://leetcode.com/problems/tree-node/)      | [MY SQL](./Tree-Node)      | Medium       ||
+610| [Triangle Judgement](https://leetcode.com/problems/triangle-judgement/)      | [MY SQL](./Triangle-Judgement)      | Easy       ||
 1050| [Actors and Directors Who Cooperated At Least Three Times](https://leetcode.com/problems/actors-and-directors-who-cooperated-at-least-three-times/)      | [MY SQL](./Actors-and-Directors-Who-Cooperated-At-Least-Three-Times)      | Easy        ||
 1126| [Active Businesses](https://leetcode.com/problems/active-businesses/)      | [MY SQL](./Active-Businesses)      | Medium       |🔒|
 1336| [Number of Transactions per Visit](https://leetcode.com/problems/number-of-transactions-per-visit/)      | [MS SQL SERVER](./Number-of-Transactions-per-Visit)      | Hard        |🔒|
