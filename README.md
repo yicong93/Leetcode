@@ -146,6 +146,7 @@
 610| [Triangle Judgement](https://leetcode.com/problems/triangle-judgement/)      | [MY SQL](./Triangle-Judgement)      | Easy       ||
 612| [Shortest Distance in a Plane](https://leetcode.com/problems/shortest-distance-in-a-plane/)      | [MY SQL](./Shortest-Distance-in-a-Plane)      | Medium       ||
 613| [Shortest Distance in a Line](https://leetcode.com/problems/shortest-distance-in-a-line/)      | [MY SQL](./Shortest-Distance-in-a-Line)      | Easy       ||
+614| [Second Degree Follower](https://leetcode.com/problems/second-degree-follower/)      | [MY SQL](./Second-Degree-Follower)      | Medium       ||
 1050| [Actors and Directors Who Cooperated At Least Three Times](https://leetcode.com/problems/actors-and-directors-who-cooperated-at-least-three-times/)      | [MY SQL](./Actors-and-Directors-Who-Cooperated-At-Least-Three-Times)      | Easy        ||
 1126| [Active Businesses](https://leetcode.com/problems/active-businesses/)      | [MY SQL](./Active-Businesses)      | Medium       |🔒|
 1336| [Number of Transactions per Visit](https://leetcode.com/problems/number-of-transactions-per-visit/)      | [MS SQL SERVER](./Number-of-Transactions-per-Visit)      | Hard        |🔒|
