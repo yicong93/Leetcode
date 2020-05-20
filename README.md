@@ -148,6 +148,7 @@
 613| [Shortest Distance in a Line](https://leetcode.com/problems/shortest-distance-in-a-line/)      | [MY SQL](./Shortest-Distance-in-a-Line)      | Easy       ||
 614| [Second Degree Follower](https://leetcode.com/problems/second-degree-follower/)      | [MY SQL](./Second-Degree-Follower)      | Medium       ||
 615| [Average Salary: Departments VS Company](https://leetcode.com/problems/average-salary-departments-vs-company/)      | [MY SQL](./Average-Salary:-Departments-VS-Company)      | Hard       ||
+618| [Students Report By Geography](https://leetcode.com/problems/students-report-by-geography/)      | [MY SQL](./Students-Report-By-Geography)      | Hard       ||
 1050| [Actors and Directors Who Cooperated At Least Three Times](https://leetcode.com/problems/actors-and-directors-who-cooperated-at-least-three-times/)      | [MY SQL](./Actors-and-Directors-Who-Cooperated-At-Least-Three-Times)      | Easy        ||
 1126| [Active Businesses](https://leetcode.com/problems/active-businesses/)      | [MY SQL](./Active-Businesses)      | Medium       |🔒|
 1336| [Number of Transactions per Visit](https://leetcode.com/problems/number-of-transactions-per-visit/)      | [MS SQL SERVER](./Number-of-Transactions-per-Visit)      | Hard        |🔒|
