@@ -1,0 +1,28 @@
+# Write your MySQL query statement below
+select ifnull((select num
+from my_numbers
+where num in (select num from my_numbers group by num having count(*)=1)
+order by num desc
+limit 1),null) as num;
+
+
+
+select ifnull((SELECT num
+FROM my_numbers
+GROUP BY 1
+HAVING COUNT(*) = 1
+ORDER BY num DESC
+LIMIT 1),null) as num;
+
+
+
+SELECT
+    MAX(num) AS num
+FROM
+    (SELECT
+        num
+    FROM
+        number
+    GROUP BY num
+    HAVING COUNT(num) = 1) AS t
+;
