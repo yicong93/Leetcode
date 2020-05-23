@@ -152,6 +152,7 @@
 618| [Students Report By Geography](https://leetcode.com/problems/students-report-by-geography/)      | [MY SQL](./Students-Report-By-Geography)      | Hard       ||
 619| [Biggest Single Number](https://leetcode.com/problems/biggest-single-number/)      | [MY SQL](./Biggest-Single-Number)      | Easy       ||
 620| [Not Boring Movies](https://leetcode.com/problems/not-boring-movies/)      | [MY SQL](./Not-Boring-Movies)      | Easy       ||
+626| [Exchange Seats](https://leetcode.com/problems/exchange-seats/)      | [MY SQL](./Exchange-Seats)      | Medium       ||
 1050| [Actors and Directors Who Cooperated At Least Three Times](https://leetcode.com/problems/actors-and-directors-who-cooperated-at-least-three-times/)      | [MY SQL](./Actors-and-Directors-Who-Cooperated-At-Least-Three-Times)      | Easy        ||
 1126| [Active Businesses](https://leetcode.com/problems/active-businesses/)      | [MY SQL](./Active-Businesses)      | Medium       |🔒|
 1336| [Number of Transactions per Visit](https://leetcode.com/problems/number-of-transactions-per-visit/)      | [MS SQL SERVER](./Number-of-Transactions-per-Visit)      | Hard        |🔒|
