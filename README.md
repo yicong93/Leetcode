@@ -154,6 +154,7 @@
 620| [Not Boring Movies](https://leetcode.com/problems/not-boring-movies/)      | [MY SQL](./Not-Boring-Movies)      | Easy       ||
 626| [Exchange Seats](https://leetcode.com/problems/exchange-seats/)      | [MY SQL](./Exchange-Seats)      | Medium       ||
 627| [Swap Salary](https://leetcode.com/problems/swap-salary/)      | [MY SQL](./Swap-Salary)      | Easy       ||
+1045| [Customers Who Bought All Products](https://leetcode.com/problems/customers-who-bought-all-products/)      | [MY SQL](./Customers-Who-Bought-All-Products)      | Medium       ||
 1050| [Actors and Directors Who Cooperated At Least Three Times](https://leetcode.com/problems/actors-and-directors-who-cooperated-at-least-three-times/)      | [MY SQL](./Actors-and-Directors-Who-Cooperated-At-Least-Three-Times)      | Easy        ||
 1126| [Active Businesses](https://leetcode.com/problems/active-businesses/)      | [MY SQL](./Active-Businesses)      | Medium       |🔒|
 1336| [Number of Transactions per Visit](https://leetcode.com/problems/number-of-transactions-per-visit/)      | [MS SQL SERVER](./Number-of-Transactions-per-Visit)      | Hard        |🔒|
