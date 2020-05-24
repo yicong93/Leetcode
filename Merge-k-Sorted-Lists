@@ -1,0 +1,51 @@
+# Definition for singly-linked list.
+# class ListNode:
+#     def __init__(self, val=0, next=None):
+#         self.val = val
+#         self.next = next
+
+class Solution:
+    def mergeKLists(self, lists: List[ListNode]) -> ListNode:
+        nodes=[]
+        dummy=point=ListNode(0)
+        for i in lists:
+            while i:
+                nodes.append(i.val)
+                i=i.next
+        for j in sorted(nodes):
+            point.next=ListNode(j)
+            point=point.next
+        return dummy.next
+        
+ time:o(nlogn)
+ space:o(n)
+ 
+ 
+from queue import PriorityQueue
+class Solution:
+    def mergeKLists(self, lists: List[ListNode]) -> ListNode:
+        dummy=point=ListNode(0)
+        q=PriorityQueue()
+        rd=0
+        for i in lists:
+            if i:
+                q.put((i.val,rd,i))
+                rd+=1
+        while not q.empty():
+            val, i, node = q.get()
+            point.next=ListNode(val)
+            point=point.next
+            node=node.next
+            if node:
+                q.put((node.val,rd,node))
+                rd+=1
+                
+        return dummy.next
+        
+        # without i, the error is TypeError '<' not supported between instances of 'ListNode' and 'ListNode'. 
+        using i to break the tie between 'ListNode' and 'ListNode'.
+        
+         time:o(nlogk)
+         space:o(n)
+       
+        
