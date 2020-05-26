@@ -159,6 +159,7 @@
 1050| [Actors and Directors Who Cooperated At Least Three Times](https://leetcode.com/problems/actors-and-directors-who-cooperated-at-least-three-times/)      | [MY SQL](./Actors-and-Directors-Who-Cooperated-At-Least-Three-Times)      | Easy        ||
 1068| [Product Sales Analysis I](https://leetcode.com/problems/product-sales-analysis-i/)      | [MY SQL](./Product-Sales-Analysis-I)      | Easy        ||
 1069| [Product Sales Analysis II](https://leetcode.com/problems/product-sales-analysis-ii/)      | [MY SQL](./Product-Sales-Analysis-II)      | Easy        ||
+1070| [Product Sales Analysis III](https://leetcode.com/problems/product-sales-analysis-iii/)      | [MY SQL](./Product-Sales-Analysis-III)      | Medium        ||
 1126| [Active Businesses](https://leetcode.com/problems/active-businesses/)      | [MY SQL](./Active-Businesses)      | Medium       |🔒|
 1336| [Number of Transactions per Visit](https://leetcode.com/problems/number-of-transactions-per-visit/)      | [MS SQL SERVER](./Number-of-Transactions-per-Visit)      | Hard        |🔒|
 1355| [Activity Participants](https://leetcode.com/problems/activity-participants/)      | [MY SQL/MS SQL SERVER](./Activity-Participants)      | Medium       |🔒|
