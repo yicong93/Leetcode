@@ -43,6 +43,7 @@
 19| [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)      | [Python](./Remove-Nth-Node-From-End-of-List)      | _O(n)_         | _O(1)_          | Medium        ||
 21| [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)      | [Python](./Merge-Two-Sorted-Lists)      | _O(n+m)_         | _O(1)_          | Easy       ||
 23| [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)      | [Python](./Merge-k-Sorted-Lists)      | _O(nlogk)_         | _O(n)_          | Hard       ||
+83| [Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)      | [Python](./Remove-Duplicates-from-Sorted-List)      | _O(n)_         | _O(1)_          | Easy       ||
 876| [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/)      | [Python](./Middle-of-the-Linked-List)      | _O(n)_         | _O(1)_          | Easy        ||
 
 ## Hash Table
