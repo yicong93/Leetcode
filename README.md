@@ -164,7 +164,7 @@
 1075| [Project Employees I](https://leetcode.com/problems/project-employees-i/)      | [MY SQL](./Project-Employees-I)      | Easy        ||
 1076| [Project Employees II](https://leetcode.com/problems/project-employees-ii/)      | [MY SQL](./Project-Employees-II)      | Easy        ||
 1077| [Project Employees III](https://leetcode.com/problems/project-employees-iii/)      | [MY SQL](./Project-Employees-III)      | Medium        ||
-1082| [Sales Analysis I](https://leetcode.com/problems/sales-analysis-i/)      | [MY SQL](./Sales Analysis I)      | Easy        ||
+1082| [Sales Analysis I](https://leetcode.com/problems/sales-analysis-i/)      | [MY SQL](./Sales-Analysis-I)      | Easy        ||
 1126| [Active Businesses](https://leetcode.com/problems/active-businesses/)      | [MY SQL](./Active-Businesses)      | Medium       |🔒|
 1336| [Number of Transactions per Visit](https://leetcode.com/problems/number-of-transactions-per-visit/)      | [MS SQL SERVER](./Number-of-Transactions-per-Visit)      | Hard        |🔒|
 1355| [Activity Participants](https://leetcode.com/problems/activity-participants/)      | [MY SQL/MS SQL SERVER](./Activity-Participants)      | Medium       |🔒|
