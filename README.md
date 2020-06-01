@@ -170,6 +170,7 @@
 1084| [Sales Analysis III](https://leetcode.com/problems/sales-analysis-iii/)      | [MY SQL](./Sales-Analysis-III)      | Easy        ||
 1097| [Game Play Analysis V](https://leetcode.com/problems/game-play-analysis-v/)      | [MY SQL](./Game-Play-Analysis-V)      | Hard        ||
 1098| [Unpopular Books](https://leetcode.com/problems/unpopular-books/)      | [MY SQL](./Unpopular-Books)      | Medium        ||
+1107| [New Users Daily Count](https://leetcode.com/problems/new-users-daily-count/)      | [MY SQL](./New-Users-Daily-Count)      | Medium        ||
 1126| [Active Businesses](https://leetcode.com/problems/active-businesses/)      | [MY SQL](./Active-Businesses)      | Medium       |🔒|
 1336| [Number of Transactions per Visit](https://leetcode.com/problems/number-of-transactions-per-visit/)      | [MS SQL SERVER](./Number-of-Transactions-per-Visit)      | Hard        |🔒|
 1355| [Activity Participants](https://leetcode.com/problems/activity-participants/)      | [MY SQL/MS SQL SERVER](./Activity-Participants)      | Medium       |🔒|
