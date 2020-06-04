@@ -1,0 +1,33 @@
+# Definition for singly-linked list.
+# class ListNode:
+#     def __init__(self, val=0, next=None):
+#         self.val = val
+#         self.next = next
+class Solution:
+    def reverseList(self, head: ListNode) -> ListNode:
+        # wrong case: pre=ListNode(None). it will finally return the result        
+        #like[4,3,2,1,None]. None is a node not NULL.
+        pre=None
+        cur=head
+        while cur:
+            nextnode=cur.next
+            cur.next=pre
+            pre=cur
+            cur=nextnode
+        return pre 
+        
+   
+   
+   
+class Solution:
+    def reverseList(self, head: ListNode) -> ListNode:
+        if not head or not head.next:
+            return head
+        newhead=self.reverseList(head.next)
+        head.next.next=head
+        head.next=None
+        return newhead
+        
+        time:o(n)
+        space:o(n)
+        
