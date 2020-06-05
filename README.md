@@ -49,6 +49,8 @@
 203| [Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/)      | [Python](./Remove-Linked-List-Elements)      | _O(n)_         | _O(1)_          | Easy       ||
 206| [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)      | [Python](./Reverse-Linked-List)      | _O(n)_         | _O(1)_          | Easy       ||
 234| [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/)      | [Python](./Palindrome-Linked-List)      | _O(n)_         | _O(n)_          | Easy       ||
+237| [Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list/)      | [Python](./Delete-Node-in-a-Linked-List)      | _O(1)_         | _O(1)_          | Easy       ||
+Delete Node in a Linked List
 876| [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/)      | [Python](./Middle-of-the-Linked-List)      | _O(n)_         | _O(1)_          | Easy        ||
 
 ## Hash Table
