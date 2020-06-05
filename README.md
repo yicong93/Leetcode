@@ -180,6 +180,7 @@
 1112| [Highest Grade For Each Student](https://leetcode.com/problems/highest-grade-for-each-student/)      | [MY SQL](./Highest-Grade-For-Each-Student)      | Medium        ||
 1113| [Reported Posts](https://leetcode.com/problems/reported-posts/)      | [MY SQL](./Reported-Posts)      | Easy        ||
 1126| [Active Businesses](https://leetcode.com/problems/active-businesses/)      | [MY SQL](./Active-Businesses)      | Medium       |🔒|
+1127| [User Purchase Platform](https://leetcode.com/problems/user-purchase-platform/)      | [MY SQL](./User-Purchase-Platform)      | Hard       ||
 1336| [Number of Transactions per Visit](https://leetcode.com/problems/number-of-transactions-per-visit/)      | [MS SQL SERVER](./Number-of-Transactions-per-Visit)      | Hard        |🔒|
 1355| [Activity Participants](https://leetcode.com/problems/activity-participants/)      | [MY SQL/MS SQL SERVER](./Activity-Participants)      | Medium       |🔒|
 1384| [Total Sales Amount by Year](https://leetcode.com/problems/total-sales-amount-by-year/)      | [MY SQL/MS SQL SERVER](./Total-Sales-Amount-by-Year)      | Hard        |🔒|
