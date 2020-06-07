@@ -182,6 +182,7 @@
 1126| [Active Businesses](https://leetcode.com/problems/active-businesses/)      | [MY SQL](./Active-Businesses)      | Medium       |🔒|
 1127| [User Purchase Platform](https://leetcode.com/problems/user-purchase-platform/)      | [MY SQL](./User-Purchase-Platform)      | Hard       ||
 1132| [Reported Posts II](https://leetcode.com/problems/reported-posts-ii/)      | [MY SQL](./Reported-Posts-II)      | Medium       ||
+1141| [User Activity for the Past 30 Days I](https://leetcode.com/problems/user-activity-for-the-past-30-days-i/)      | [MY SQL](./User-Activity-for-the-Past-30-Days-I)      | Easy       ||
 1336| [Number of Transactions per Visit](https://leetcode.com/problems/number-of-transactions-per-visit/)      | [MS SQL SERVER](./Number-of-Transactions-per-Visit)      | Hard        |🔒|
 1355| [Activity Participants](https://leetcode.com/problems/activity-participants/)      | [MY SQL/MS SQL SERVER](./Activity-Participants)      | Medium       |🔒|
 1384| [Total Sales Amount by Year](https://leetcode.com/problems/total-sales-amount-by-year/)      | [MY SQL/MS SQL SERVER](./Total-Sales-Amount-by-Year)      | Hard        |🔒|
