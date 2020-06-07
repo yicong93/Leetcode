@@ -1,0 +1,15 @@
+class Solution:
+    def countPrimes(self, n: int) -> int:
+        if n<2:
+            return 0
+        mark=[True for i in range(n)]
+        p=2
+        while p*p<n:
+            if mark[p]==True:
+                for i in range(p*p,n,p):
+                    mark[i]=False
+            p+=1
+        return sum(mark[2:])
+        
+        
+        # Sieve of Eratosthenes algorithm
