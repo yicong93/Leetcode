@@ -1,0 +1,10 @@
+# Write your MySQL query statement below
+select u.user_id as seller_id,case when i.item_brand=u.favorite_brand then 'yes' else 'no' end as 2nd_item_fav_brand
+from
+Users u 
+left join 
+(select seller_id, item_id, row_number() over(partition by seller_id order by order_date) as ranks
+from Orders o) a
+on a.ranks=2 and u.user_id=a.seller_id 
+left join Items i on a.item_id=i.item_id
+order by seller_id;
