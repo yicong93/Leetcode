@@ -189,6 +189,7 @@
 1148| [Article Views I](https://leetcode.com/problems/article-views-i/)      | [MY SQL](./Article-Views-I)      | Easy       ||
 1149| [Article Views II](https://leetcode.com/problems/article-views-ii/)      | [MY SQL](./Article-Views-II)      | Medium       ||
 1158| [Market Analysis I](https://leetcode.com/problems/market-analysis-i/)      | [MY SQL](./Market-Analysis-I)      | Medium       ||
+1159| [Market Analysis II](https://leetcode.com/problems/market-analysis-ii/)      | [MY SQL](./Market-Analysis-II)      | Hard       ||
 1336| [Number of Transactions per Visit](https://leetcode.com/problems/number-of-transactions-per-visit/)      | [MS SQL SERVER](./Number-of-Transactions-per-Visit)      | Hard        |🔒|
 1355| [Activity Participants](https://leetcode.com/problems/activity-participants/)      | [MY SQL/MS SQL SERVER](./Activity-Participants)      | Medium       |🔒|
 1384| [Total Sales Amount by Year](https://leetcode.com/problems/total-sales-amount-by-year/)      | [MY SQL/MS SQL SERVER](./Total-Sales-Amount-by-Year)      | Hard        |🔒|
