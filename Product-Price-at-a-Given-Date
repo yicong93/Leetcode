@@ -1,0 +1,16 @@
+# Write your MySQL query statement below
+
+select distinct c.product_id,ifnull(d.new_price,10) as price
+from
+(select p.product_id,p.change_date,new_price
+from
+(select product_id, max(change_date) as change_date
+from
+(select *
+from Products
+where datediff("2019-08-16", change_date)>=0) a
+group by product_id) b
+join Products p on b.product_id=p.product_id and b.change_date=p.change_date) d
+right join
+(select distinct product_id from Products) c
+on d.product_id=c.product_id;
