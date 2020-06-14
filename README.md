@@ -66,6 +66,7 @@
 205| [Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/)      | [Python](./Isomorphic-Strings)      | _O(n)_         | _O(n)_          | Easy        ||
 217| [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)      | [Python](./Contains-Duplicate)      | _O(n)_         | _O(n)_          | Easy        ||
 219| [Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/)      | [Python](./Contains-Duplicate-II)      | _O(n)_         | _O(n)_          | Easy        ||
+242| [Valid Anagram](https://leetcode.com/problems/valid-anagram/)      | [Python](./Valid-Anagram)      | _O(n)_         | _O(n)_          | Easy        ||
 454| [4Sum II](https://leetcode.com/problems/4sum-ii/)      | [Python](./4Sum-II)      | _O(n^2)_         | _O(n)_          | Medium         ||
 525| [Contiguous Array](https://leetcode.com/problems/contiguous-array/)      | [Python](./Contiguous-Array)      | _O(n)_         | _O(n)_          | Medium         ||
 560| [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/)      | [Python](./Subarray-Sum-Equals-K)      | _O(n)_         | _O(n)_          | Medium         ||
