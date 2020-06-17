@@ -1,0 +1,15 @@
+class Solution:
+    def canPermutePalindrome(self, s: str) -> bool:
+        dic={}
+        for i in s:
+            if i in dic:
+                dic[i]+=1
+            else:
+                dic[i]=1
+        odd=0
+        for val in dic.values():
+            if val%2!=0:
+                odd+=1
+            if odd>1:
+                return False
+        return True
