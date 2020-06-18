@@ -1,0 +1,20 @@
+class Solution:
+    def wordPattern(self, pattern: str, str: str) -> bool:
+        dic_left={}
+        dic_right={}
+        list_str=str.split()
+        if len(pattern)!=len(list_str):
+            return False
+        for i in range(len(list_str)):
+            if pattern[i] in dic_left:
+                if dic_left[pattern[i]]!=list_str[i]:
+                    return False
+            if list_str[i] in dic_right:
+                if dic_right[list_str[i]]!=pattern[i]:
+                    return False
+            if pattern[i] not in dic_left:
+                dic_left[pattern[i]]=list_str[i]
+            if list_str[i] not in dic_right:
+                dic_right[list_str[i]]=pattern[i]
+                
+        return True
