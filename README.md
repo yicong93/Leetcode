@@ -198,6 +198,8 @@
 1164| [Product Price at a Given Date](https://leetcode.com/problems/product-price-at-a-given-date/)      | [MY SQL](./Product-Price-at-a-Given-Date)      | Medium       ||
 1173| [Immediate Food Delivery I](https://leetcode.com/problems/immediate-food-delivery-i/)      | [MY SQL](./Immediate-Food-Delivery-I)      | Easy       ||
 1174| [Immediate Food Delivery II](https://leetcode.com/problems/immediate-food-delivery-ii/)      | [MY SQL](./Immediate-Food-Delivery-II)      | Medium       ||
+1179| [Reformat Department Table](https://leetcode.com/problems/reformat-department-table/)      | [MY SQL](./Reformat-Department-Table)      | Easy      ||
+1193| [Monthly Transactions I](https://leetcode.com/problems/monthly-transactions-i/)      | [MY SQL](./Monthly-Transactions-I)      | Medium      ||
 1336| [Number of Transactions per Visit](https://leetcode.com/problems/number-of-transactions-per-visit/)      | [MS SQL SERVER](./Number-of-Transactions-per-Visit)      | Hard        |🔒|
 1355| [Activity Participants](https://leetcode.com/problems/activity-participants/)      | [MY SQL/MS SQL SERVER](./Activity-Participants)      | Medium       |🔒|
 1384| [Total Sales Amount by Year](https://leetcode.com/problems/total-sales-amount-by-year/)      | [MY SQL/MS SQL SERVER](./Total-Sales-Amount-by-Year)      | Hard        |🔒|
