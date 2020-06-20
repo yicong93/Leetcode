@@ -1,0 +1,16 @@
+# Write your MySQL query statement below
+select a.country, date_format(a.trans_date,'%Y-%m') as month,
+sum(case when a.state="approved" then 1 else 0 end) as approved_count,
+sum(case when a.state="approved" then a.amount else 0 end) as approved_amount,
+sum(case when a.state="chargeback" then 1 else 0 end) as chargeback_count,
+sum(case when a.state="chargeback" then a.amount else 0 end) as chargeback_amount
+from
+(select t.id, t.country, 'chargeback' as state,t.amount, c.trans_date
+from Chargebacks c join Transactions t on c.trans_id=t.id
+
+union all
+
+select *
+from Transactions
+where state="approved") a
+group by a.country,month;
