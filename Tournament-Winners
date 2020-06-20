@@ -1,0 +1,35 @@
+select *
+from
+(select p.group_id,p.player_id
+from
+(select first_player as player_id, first_score as score
+from Matches 
+union all
+select second_player as player_id, second_score as score
+from Matches) a
+right join Players p on a.player_id=p.player_id
+group by p.player_id,p.group_id
+order by sum(a.score) desc, p.player_id) b
+group by b.group_id
+order by b.group_id;
+
+
+
+
+
+
+select c.group_id,c.player_id
+from
+(select f.group_id, f.player_id, row_number()over(partition by f.group_id order by f.points desc, f.player_id) as ranks
+from
+(select e.player_id,e.group_id,(e.points+e.points2) as points
+from
+(select b.player_id, b.group_id,b.points,sum(ifnull(a.second_score,0)) as points2
+from
+(select p.player_id, p.group_id,sum(ifnull(m.first_score,0)) points
+from Players p 
+left join Matches m on p.player_id=m.first_player
+group by p.player_id, p.group_id) b
+left join Matches a on b.player_id=a.second_player
+group by b.player_id, b.group_id) e) f) c
+where c.ranks=1;
