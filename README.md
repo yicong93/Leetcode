@@ -202,6 +202,7 @@
 1179| [Reformat Department Table](https://leetcode.com/problems/reformat-department-table/)      | [MY SQL](./Reformat-Department-Table)      | Easy      ||
 1193| [Monthly Transactions I](https://leetcode.com/problems/monthly-transactions-i/)      | [MY SQL](./Monthly-Transactions-I)      | Medium      ||
 1194| [Tournament Winners](https://leetcode.com/problems/tournament-winners/)      | [MY SQL](./Tournament-Winners)      | Hard      ||
+1204| [Last Person to Fit in the Elevator](https://leetcode.com/problems/last-person-to-fit-in-the-elevator/)      | [MY SQL](./Last-Person-to-Fit-in-the-Elevator)      | Medium      ||
 1336| [Number of Transactions per Visit](https://leetcode.com/problems/number-of-transactions-per-visit/)      | [MS SQL SERVER](./Number-of-Transactions-per-Visit)      | Hard        |🔒|
 1355| [Activity Participants](https://leetcode.com/problems/activity-participants/)      | [MY SQL/MS SQL SERVER](./Activity-Participants)      | Medium       |🔒|
 1384| [Total Sales Amount by Year](https://leetcode.com/problems/total-sales-amount-by-year/)      | [MY SQL/MS SQL SERVER](./Total-Sales-Amount-by-Year)      | Hard        |🔒|
