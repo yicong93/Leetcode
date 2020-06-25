@@ -70,6 +70,7 @@
 246| [Strobogrammatic Number](https://leetcode.com/problems/strobogrammatic-number/)      | [Python](./Strobogrammatic-Number)      | _O(n)_         | _O(1)_          | Easy        ||
 266| [Palindrome Permutation](https://leetcode.com/problems/palindrome-permutation/)      | [Python](./Palindrome-Permutation)      | _O(n)_         | _O(n)_          | Easy        ||
 290| [Word Pattern](https://leetcode.com/problems/word-pattern/)      | [Python](./Word-Pattern)      | _O(n)_         | _O(n)_          | Easy        ||
+299| [Bulls and Cows](https://leetcode.com/problems/bulls-and-cows/)      | [Python](./Bulls-and-Cows)      | _O(n)_         | _O(n)_          | Easy        ||
 454| [4Sum II](https://leetcode.com/problems/4sum-ii/)      | [Python](./4Sum-II)      | _O(n^2)_         | _O(n)_          | Medium         ||
 525| [Contiguous Array](https://leetcode.com/problems/contiguous-array/)      | [Python](./Contiguous-Array)      | _O(n)_         | _O(n)_          | Medium         ||
 560| [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/)      | [Python](./Subarray-Sum-Equals-K)      | _O(n)_         | _O(n)_          | Medium         ||
