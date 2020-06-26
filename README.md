@@ -207,6 +207,7 @@
 1205| [Monthly Transactions II](https://leetcode.com/problems/monthly-transactions-ii/)      | [MY SQL](./Monthly-Transactions-II)      | Medium      ||
 1211| [Queries Quality and Percentage](https://leetcode.com/problems/queries-quality-and-percentage/)      | [MY SQL](./Queries-Quality-and-Percentage)      | Easy      ||
 1212| [Team Scores in Football Tournament](https://leetcode.com/problems/team-scores-in-football-tournament/)      | [MY SQL](./Team-Scores-in-Football-Tournament)      | Medium     ||
+1225| [Report Contiguous Dates](https://leetcode.com/problems/report-contiguous-dates/)      | [MY SQL](./Report-Contiguous-Dates)      | Hard     ||
 1336| [Number of Transactions per Visit](https://leetcode.com/problems/number-of-transactions-per-visit/)      | [MS SQL SERVER](./Number-of-Transactions-per-Visit)      | Hard        |🔒|
 1355| [Activity Participants](https://leetcode.com/problems/activity-participants/)      | [MY SQL/MS SQL SERVER](./Activity-Participants)      | Medium       |🔒|
 1384| [Total Sales Amount by Year](https://leetcode.com/problems/total-sales-amount-by-year/)      | [MY SQL/MS SQL SERVER](./Total-Sales-Amount-by-Year)      | Hard        |🔒|
