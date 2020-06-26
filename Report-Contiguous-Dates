@@ -1,0 +1,12 @@
+# Write your MySQL query statement below
+select combined.period_state, min(combined.dates)as start_date, max(combined.dates) as end_date
+from 
+(select fail_date as dates, 'failed' as period_state, dayofyear(fail_date)-row_number() over(order by fail_date) as period_group
+from Failed
+where fail_date between '2019-01-01' and '2019-12-31'
+union all
+select success_date as dates, 'succeeded' as period_state, dayofyear(success_date)-row_number() over(order by success_date) as period_group
+from Succeeded
+where success_date between '2019-01-01' and '2019-12-31') combined
+group by combined.period_state,combined.period_group
+order by start_date;
