@@ -210,6 +210,7 @@
 1212| [Team Scores in Football Tournament](https://leetcode.com/problems/team-scores-in-football-tournament/)      | [MY SQL](./Team-Scores-in-Football-Tournament)      | Medium     ||
 1225| [Report Contiguous Dates](https://leetcode.com/problems/report-contiguous-dates/)      | [MY SQL](./Report-Contiguous-Dates)      | Hard     ||
 1241| [Number of Comments per Post](https://leetcode.com/problems/number-of-comments-per-post/)      | [MY SQL](./Number-of-Comments-per-Post)      | Easy     ||
+1251| [Average Selling Price](https://leetcode.com/problems/average-selling-price/)      | [MY SQL](./Average-Selling-Price)      | Easy     ||
 1336| [Number of Transactions per Visit](https://leetcode.com/problems/number-of-transactions-per-visit/)      | [MS SQL SERVER](./Number-of-Transactions-per-Visit)      | Hard        |🔒|
 1355| [Activity Participants](https://leetcode.com/problems/activity-participants/)      | [MY SQL/MS SQL SERVER](./Activity-Participants)      | Medium       |🔒|
 1384| [Total Sales Amount by Year](https://leetcode.com/problems/total-sales-amount-by-year/)      | [MY SQL/MS SQL SERVER](./Total-Sales-Amount-by-Year)      | Hard        |🔒|
