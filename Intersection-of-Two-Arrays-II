@@ -1,0 +1,42 @@
+class Solution:
+    def intersect(self, nums1: List[int], nums2: List[int]) -> List[int]:
+        nums1.sort()
+        nums2.sort()
+        res=[]
+        i=j=0
+        while i<len(nums1) and j<len(nums2):
+            if nums1[i]==nums2[j]:
+                res.append(nums1[i])
+                i+=1
+                j+=1
+            elif nums1[i]<nums2[j]:
+                i+=1
+            else:
+                j+=1
+        return res
+       
+       # time:o(nlogn+mlogm)
+       # space:o(1)
+       
+       
+       
+
+class Solution:
+    def intersect(self, nums1: List[int], nums2: List[int]) -> List[int]:
+        dic={}
+        for i in nums1:
+            if i in dic:
+                dic[i]+=1
+            else:
+                dic[i]=1
+        k=0
+        for j in nums2:
+            if j in dic and dic[j]>0 and k<len(nums1):
+                nums1[k]=j
+                dic[j]-=1
+                k+=1
+        return nums1[:k]
+        
+        # time:o(n+m)
+        # space:o(min(n,m))       
+       
