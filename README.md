@@ -73,6 +73,7 @@
 299| [Bulls and Cows](https://leetcode.com/problems/bulls-and-cows/)      | [Python](./Bulls-and-Cows)      | _O(n)_         | _O(n)_          | Easy        ||
 349| [Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/)      | [Python](./Intersection-of-Two-Arrays)      | _O(n)_         | _O(n+m)_          | Easy        ||
 350| [Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/)      | [Python](./Intersection-of-Two-Arrays-II)      | _O(nlogn+mlogm)_         | _O(1)_          | Easy        ||
+359| [Logger Rate Limiter](https://leetcode.com/problems/logger-rate-limiter/)      | [Python](./Logger-Rate-Limiter)      | _O(1)_         | _O(m)_          | Easy        ||
 454| [4Sum II](https://leetcode.com/problems/4sum-ii/)      | [Python](./4Sum-II)      | _O(n^2)_         | _O(n)_          | Medium         ||
 525| [Contiguous Array](https://leetcode.com/problems/contiguous-array/)      | [Python](./Contiguous-Array)      | _O(n)_         | _O(n)_          | Medium         ||
 560| [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/)      | [Python](./Subarray-Sum-Equals-K)      | _O(n)_         | _O(n)_          | Medium         ||
