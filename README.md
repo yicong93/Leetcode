@@ -214,6 +214,8 @@
 1241| [Number of Comments per Post](https://leetcode.com/problems/number-of-comments-per-post/)      | [MY SQL](./Number-of-Comments-per-Post)      | Easy     ||
 1251| [Average Selling Price](https://leetcode.com/problems/average-selling-price/)      | [MY SQL](./Average-Selling-Price)      | Easy     ||
 1264| [Page Recommendations](https://leetcode.com/problems/page-recommendations/)      | [MY SQL](./Page-Recommendations)      | Medium     ||
+1280| [Students and Examinations](https://leetcode.com/problems/students-and-examinations/)      | [MY SQL](./Students-and-Examinations)      | Easy     ||
+1270| [All People Report to the Given Manager](https://leetcode.com/problems/all-people-report-to-the-given-manager/)      | [MY SQL](./All-People-Report-to-the-Given-Manager)      | Medium     ||
 1336| [Number of Transactions per Visit](https://leetcode.com/problems/number-of-transactions-per-visit/)      | [MS SQL SERVER](./Number-of-Transactions-per-Visit)      | Hard        |🔒|
 1355| [Activity Participants](https://leetcode.com/problems/activity-participants/)      | [MY SQL/MS SQL SERVER](./Activity-Participants)      | Medium       |🔒|
 1384| [Total Sales Amount by Year](https://leetcode.com/problems/total-sales-amount-by-year/)      | [MY SQL/MS SQL SERVER](./Total-Sales-Amount-by-Year)      | Hard        |🔒|
