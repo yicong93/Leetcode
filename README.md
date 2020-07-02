@@ -217,6 +217,8 @@
 1264| [Page Recommendations](https://leetcode.com/problems/page-recommendations/)      | [MY SQL](./Page-Recommendations)      | Medium     ||
 1270| [All People Report to the Given Manager](https://leetcode.com/problems/all-people-report-to-the-given-manager/)      | [MY SQL](./All-People-Report-to-the-Given-Manager)      | Medium     ||
 1280| [Students and Examinations](https://leetcode.com/problems/students-and-examinations/)      | [MY SQL](./Students-and-Examinations)      | Easy     ||
+1285| [Find the Start and End Number of Continuous Ranges](https://leetcode.com/problems/find-the-start-and-end-number-of-continuous-ranges/)      | [MY SQL](./Find-the-Start-and-End-Number-of-Continuous-Ranges)      | Medium     ||
+1294| [Weather Type in Each Country](https://leetcode.com/problems/weather-type-in-each-country/)      | [MY SQL](./Weather-Type-in-Each-Country)      | Easy     ||
 1336| [Number of Transactions per Visit](https://leetcode.com/problems/number-of-transactions-per-visit/)      | [MS SQL SERVER](./Number-of-Transactions-per-Visit)      | Hard        |🔒|
 1355| [Activity Participants](https://leetcode.com/problems/activity-participants/)      | [MY SQL/MS SQL SERVER](./Activity-Participants)      | Medium       |🔒|
 1384| [Total Sales Amount by Year](https://leetcode.com/problems/total-sales-amount-by-year/)      | [MY SQL/MS SQL SERVER](./Total-Sales-Amount-by-Year)      | Hard        |🔒|
