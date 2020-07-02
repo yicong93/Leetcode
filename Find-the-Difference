@@ -1,0 +1,23 @@
+class Solution:
+    def findTheDifference(self, s: str, t: str) -> str:
+        import collections
+        dic_s=collections.Counter(s)
+        dic_t=collections.Counter(t)
+        for k in dic_t:
+            if k not in dic_s or dic_t[k]!=dic_s[k]:
+                return k
+                
+                
+                
+                
+                
+class Solution:
+    def findTheDifference(self, s: str, t: str) -> str:
+        import collections
+        dic_s=collections.Counter(s)
+        for ch in t:
+            if ch not in dic_s or dic_s[ch]==0:
+                return ch
+            else:
+                dic_s[ch]-=1
+        
