@@ -1,0 +1,18 @@
+# Write your MySQL query statement below
+select min(a.log_id)as start_id, max(a.log_id)as end_id
+from
+(select log_id,row_number() over(order by log_id) as ranks
+from Logs) a 
+group by a.log_id-a.ranks;
+
+
+
+
+SELECT L1.log_id AS START_ID, min(L2.log_id) AS END_ID
+FROM Logs L1
+LEFT JOIN Logs L2 
+ON L1.log_id <= L2.log_id
+WHERE L1.log_id - 1 NOT IN (SELECT log_id FROM Logs)
+AND L2.log_id + 1 NOT IN (SELECT log_id FROM Logs)
+GROUP BY L1.log_id
+ORDER BY L1.log_id;
