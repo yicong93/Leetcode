@@ -20,4 +20,9 @@ class Solution:
                 return ch
             else:
                 dic_s[ch]-=1
-        
+                
+                
+                
+                
+# space complexity is o(1) as the string only consists of lowercase letters. 
+# Thus, the total number of unique characters and eventually buckets in the hash map possible are just 26.   
