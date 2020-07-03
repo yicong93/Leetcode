@@ -221,6 +221,7 @@
 1285| [Find the Start and End Number of Continuous Ranges](https://leetcode.com/problems/find-the-start-and-end-number-of-continuous-ranges/)      | [MY SQL](./Find-the-Start-and-End-Number-of-Continuous-Ranges)      | Medium     ||
 1294| [Weather Type in Each Country](https://leetcode.com/problems/weather-type-in-each-country/)      | [MY SQL](./Weather-Type-in-Each-Country)      | Easy     ||
 1303| [Find the Team Size](https://leetcode.com/problems/find-the-team-size/)      | [MY SQL](./Find-the-Team-Size)      | Easy     ||
+1308| [Running Total for Different Genders](https://leetcode.com/problems/running-total-for-different-genders/)      | [MY SQL](./Running-Total-for-Different-Genders)      | Medium     ||
 1336| [Number of Transactions per Visit](https://leetcode.com/problems/number-of-transactions-per-visit/)      | [MS SQL SERVER](./Number-of-Transactions-per-Visit)      | Hard        |🔒|
 1355| [Activity Participants](https://leetcode.com/problems/activity-participants/)      | [MY SQL/MS SQL SERVER](./Activity-Participants)      | Medium       |🔒|
 1384| [Total Sales Amount by Year](https://leetcode.com/problems/total-sales-amount-by-year/)      | [MY SQL/MS SQL SERVER](./Total-Sales-Amount-by-Year)      | Hard        |🔒|
