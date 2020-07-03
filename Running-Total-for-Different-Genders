@@ -1,0 +1,11 @@
+select gender, day, sum(score_points) over(partition by gender order by day) as total
+from Scores
+order by gender, day;
+
+
+
+
+select s.gender, s.day,sum(c.score_points) as total
+from Scores s join Scores c on s.gender=c.gender and s.day>=c.day
+group by s.gender, s.day
+order by s.gender, s.day;
