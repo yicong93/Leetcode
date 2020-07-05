@@ -1,0 +1,20 @@
+# Write your MySQL query statement below
+select distinct b.ad_id, ifnull(a.ctr,0) as ctr
+from
+(select ad_id, round(100*sum(case when action='Clicked' then 1 else 0 end)/count(*),2) as ctr
+from Ads
+where action in ('Clicked', 'Viewed')
+group by ad_id) a 
+right join 
+(select distinct ad_id from Ads) b on a.ad_id=b.ad_id
+order by ctr desc, b.ad_id;
+
+# cannot use count(distinct user_id) as some users both clicked and viewed # the same ad
+
+
+
+
+select ad_id, ifnull(round(100*sum(case when action='Clicked' then 1 else 0 end)/sum(case when action!='Ignored' then 1 else 0 end),2),0) as ctr
+from Ads
+group by ad_id
+order by ctr desc, ad_id;
