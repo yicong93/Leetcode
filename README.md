@@ -225,6 +225,7 @@
 1308| [Running Total for Different Genders](https://leetcode.com/problems/running-total-for-different-genders/)      | [MY SQL](./Running-Total-for-Different-Genders)      | Medium     ||
 1321| [Restaurant Growth](https://leetcode.com/problems/restaurant-growth/)      | [MY SQL](./Restaurant-Growth)      | Medium     ||
 1322| [Ads Performance](https://leetcode.com/problems/ads-performance/)      | [MY SQL](./Ads-Performance)      | Easy     ||
+1327| [List the Products Ordered in a Period](https://leetcode.com/problems/list-the-products-ordered-in-a-period/)      | [MY SQL](./List-the-Products-Ordered-in-a-Period)      | Easy     ||
 1336| [Number of Transactions per Visit](https://leetcode.com/problems/number-of-transactions-per-visit/)      | [MS SQL SERVER](./Number-of-Transactions-per-Visit)      | Hard        |🔒|
 1355| [Activity Participants](https://leetcode.com/problems/activity-participants/)      | [MY SQL/MS SQL SERVER](./Activity-Participants)      | Medium       |🔒|
 1384| [Total Sales Amount by Year](https://leetcode.com/problems/total-sales-amount-by-year/)      | [MY SQL/MS SQL SERVER](./Total-Sales-Amount-by-Year)      | Hard        |🔒|
