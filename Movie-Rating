@@ -1,0 +1,13 @@
+# Write your MySQL query statement below
+(select u.name as results
+from Movie_Rating m join Users u on m.user_id=u.user_id
+group by m.user_id
+order by count(distinct m.movie_id) desc, u.name
+limit 1)
+union
+(select o.title as results
+from Movie_Rating m join Movies o on m.movie_id=o.movie_id
+where date_format(m.created_at,"%Y%m")=202002
+group by m.movie_id
+order by sum(m.rating)/count(distinct m.user_id) desc, o.title
+limit 1);
