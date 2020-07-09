@@ -6,6 +6,19 @@ select activity from friends group by activity having count(activity) not in
 );
 
 
+
+with temp as (select a.name, ifnull(count(distinct f.id),0) as nums
+from Activities a left join Friends f on a.name=f.activity
+group by a.name)
+
+select name as activity
+from temp
+where nums!=(select min(nums) from temp) and nums!=(select max(nums) from temp);
+
+
+
+
+
 /* Write your T-SQL query statement below */
 select activity
 from
