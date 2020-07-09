@@ -1,0 +1,19 @@
+class Solution:
+    def strStr(self, haystack: str, needle: str) -> int:
+        if not needle:
+            return 0
+        if len(haystack)<len(needle):
+            return -1
+        lens=len(needle)
+        for i in range(len(haystack)-lens+1):
+            if haystack[i:(i+lens)]==needle:
+                return i
+        return -1
+        
+        
+        
+        
+        
+        Time complexity:O((N−L)L), where N is a length of haystack and L is a length of needle. We compute a substring of length L in a loop, which is executed (N - L) times.
+
+        Space complexity:O(1).
