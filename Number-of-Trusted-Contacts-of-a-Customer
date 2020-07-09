@@ -1,0 +1,7 @@
+# Write your MySQL query statement below
+select i.invoice_id, c.customer_name, i.price, count(o.contact_name) as contacts_cnt, count(s.customer_name) as trusted_contacts_cnt
+from Invoices i join Customers c on i.user_id=c.customer_id
+left join Contacts o on c.customer_id=o.user_id
+left join Customers s on o.contact_name=s.customer_name and o.contact_email=s.email
+group by i.invoice_id,i.price, c.customer_name
+order by i.invoice_id;
