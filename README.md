@@ -234,6 +234,7 @@
 1350| [Students With Invalid Departments](https://leetcode.com/problems/students-with-invalid-departments/)      | [MY SQL](./Students-With-Invalid-Departments)      | Easy     ||
 1355| [Activity Participants](https://leetcode.com/problems/activity-participants/)      | [MY SQL/MS SQL SERVER](./Activity-Participants)      | Medium       |🔒|
 1364| [Number of Trusted Contacts of a Customer](https://leetcode.com/problems/number-of-trusted-contacts-of-a-customer/)      | [MY SQL](./Number-of-Trusted-Contacts-of-a-Customer)      | Medium     ||
+1369| [Get the Second Most Recent Activity](https://leetcode.com/problems/get-the-second-most-recent-activity/)      | [MY SQL](./Get-the-Second-Most-Recent-Activity)      | Hard     ||
 1384| [Total Sales Amount by Year](https://leetcode.com/problems/total-sales-amount-by-year/)      | [MY SQL/MS SQL SERVER](./Total-Sales-Amount-by-Year)      | Hard        |🔒|
 1398| [Customers Who Bought Products A and B but Not C](https://leetcode.com/problems/customers-who-bought-products-a-and-b-but-not-c/)      | [MY SQL](./Customers-Who-Bought-Products-A-and-B-but-Not-C)      | Medium       |🔒|
 1407| [Top Travellers](https://leetcode.com/problems/top-travellers/)      | [MY SQL](./Top-Travellers)      | Easy        ||
