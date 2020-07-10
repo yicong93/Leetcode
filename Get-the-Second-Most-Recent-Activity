@@ -1,0 +1,14 @@
+# Write your MySQL query statement below
+
+select a.username, a.activity,a.startDate,a.endDate
+from UserActivity a join UserActivity b
+on a.username=b.username and a.startDate<=b.startDate
+group by a.username, a.activity,a.startDate,a.endDate
+having count(distinct b.startdate)=2
+
+union
+
+select username, activity, startDate,endDate
+from UserActivity
+group by username
+having count(distinct startdate)=1;
