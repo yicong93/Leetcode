@@ -1,7 +1,7 @@
 # Write your MySQL query statement below
 
 select a.username, a.activity,a.startDate,a.endDate
-from UserActivity a join UserActivity b
+from (select distinct * from UserActivity) a join (select * from UserActivity) b
 on a.username=b.username and a.startDate<=b.startDate
 group by a.username, a.activity,a.startDate,a.endDate
 having count(distinct b.startdate)=2
@@ -12,3 +12,6 @@ select username, activity, startDate,endDate
 from UserActivity
 group by username
 having count(distinct startdate)=1;
+
+
+# the question said there is no primary key for this table
