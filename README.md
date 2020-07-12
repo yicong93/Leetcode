@@ -237,6 +237,7 @@
 1369| [Get the Second Most Recent Activity](https://leetcode.com/problems/get-the-second-most-recent-activity/)      | [MY SQL](./Get-the-Second-Most-Recent-Activity)      | Hard     ||
 1378| [Replace Employee ID With The Unique Identifier](https://leetcode.com/problems/replace-employee-id-with-the-unique-identifier/)      | [MY SQL](./Replace-Employee-ID-With-The-Unique-Identifier)      | Easy     ||
 1384| [Total Sales Amount by Year](https://leetcode.com/problems/total-sales-amount-by-year/)      | [MY SQL/MS SQL SERVER](./Total-Sales-Amount-by-Year)      | Hard        |🔒|
+1393| [Capital Gain or Loss](https://leetcode.com/problems/capital-gainloss/)      | [MY SQL/MS SQL SERVER](./Capital-Gain-or-Loss)      | Medium ||
 1398| [Customers Who Bought Products A and B but Not C](https://leetcode.com/problems/customers-who-bought-products-a-and-b-but-not-c/)      | [MY SQL](./Customers-Who-Bought-Products-A-and-B-but-Not-C)      | Medium       |🔒|
 1407| [Top Travellers](https://leetcode.com/problems/top-travellers/)      | [MY SQL](./Top-Travellers)      | Easy        ||
 1412| [Find the Quiet Students in All Exams](https://leetcode.com/problems/find-the-quiet-students-in-all-exams/)      | [MY SQL/MS SQL SERVER](./Find-the-Quiet-Students-in-All-Exams)      | Hard        |🔒|
