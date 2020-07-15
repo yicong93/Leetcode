@@ -1,0 +1,17 @@
+class Solution:
+    def longestPalindrome(self, s: str) -> int:
+        dic={}
+        for i in s:
+            if i in dic:
+                dic[i]+=1
+            else:
+                dic[i]=1
+        res=0
+        for j in dic:
+            res+=dic[j]//2*2
+            if res%2==0 and dic[j]%2==1:
+                res+=1
+        return res
+  
+  
+  A palindrome consists of letters with equal partners, plus possibly a unique center (without a partner). 
