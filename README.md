@@ -244,4 +244,5 @@
 1412| [Find the Quiet Students in All Exams](https://leetcode.com/problems/find-the-quiet-students-in-all-exams/)      | [MY SQL/MS SQL SERVER](./Find-the-Quiet-Students-in-All-Exams)      | Hard        |🔒|
 1421| [NPV Queries](https://leetcode.com/problems/npv-queries/)      | [MY SQL/MS SQL](./NPV-Queries)      | Medium       ||
 1435| [Create a Session Bar Chart](https://leetcode.com/problems/create-a-session-bar-chart/)      | [MY SQL](./Create-a-Session-Bar-Chart)      | Easy      ||
-1440| [Evaluate Boolean Expression](https://leetcode.com/problems/evaluate-boolean-expression/)      | [MY SQL](./Evaluate-Boolean-Expression)      | Medium      ||
+1440| [Evaluate Boolean Expression](https://leetcode.com/problems/evaluate-boolean-expression/)      | [MY SQL](./Evaluate-Boolean-Expression)      | Medium    ||
+1445| [Apples & Oranges](https://leetcode.com/problems/apples-oranges/)      | [MY SQL](./Apples-Oranges)      | Medium    ||
