@@ -37,6 +37,7 @@
 20| [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)      | [Python](./Valid-Parentheses)      | _O(n)_         | _O(n)_          | Easy    ||
 28| [Implement strStr()](https://leetcode.com/problems/implement-strstr/)      | [Python](./Implement-strStr())      | _O((n-l)*l)_         | _O(1)_          | Easy    ||
 55| [Jump Game](https://leetcode.com/problems/jump-game/)      | [Python](./Jump-Game)      | _O(n)_         | _O(1)_          | Medium        ||
+125| [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)      | [Python](./Valid-Palindrome)      | _O(n)_         | _O(1)_          | Easy     ||
 678| [Valid Parenthesis String](https://leetcode.com/problems/valid-parenthesis-string/)      | [Python](./Valid-Parenthesis-String)      | _O(n)_         | _O(1)_          | Medium        ||
 
 
