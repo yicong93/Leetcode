@@ -246,3 +246,4 @@
 1435| [Create a Session Bar Chart](https://leetcode.com/problems/create-a-session-bar-chart/)      | [MY SQL](./Create-a-Session-Bar-Chart)      | Easy      ||
 1440| [Evaluate Boolean Expression](https://leetcode.com/problems/evaluate-boolean-expression/)      | [MY SQL](./Evaluate-Boolean-Expression)      | Medium    ||
 1445| [Apples & Oranges](https://leetcode.com/problems/apples-oranges/)      | [MY SQL](./Apples-Oranges)      | Medium    ||
+1454| [Active Users](https://leetcode.com/problems/active-users/)      | [MY SQL](./Active-Users)      | Medium    ||
