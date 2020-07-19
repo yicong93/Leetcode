@@ -1,0 +1,17 @@
+# Write your MySQL query statement below
+select distinct c.id,d.name
+from
+(select b.*,date_sub(b.login_date, interval b.ranks day) diff
+from
+(select a.id, a.login_date,row_number() over(partition by a.id order by login_date) ranks
+from
+(select distinct id, login_date
+from Logins) a)b) c
+join Accounts d on c.id=d.id
+group by c.id,c.diff
+having count(c.login_date)>=5
+order by c.id;
+
+
+
+# the idea is to group by the same difference between ranks and date
