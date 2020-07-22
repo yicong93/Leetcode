@@ -249,3 +249,4 @@
 1445| [Apples & Oranges](https://leetcode.com/problems/apples-oranges/)      | [MY SQL](./Apples-Oranges)      | Medium    ||
 1454| [Active Users](https://leetcode.com/problems/active-users/)      | [MY SQL](./Active-Users)      | Medium    ||
 1459| [Rectangles Area](https://leetcode.com/problems/rectangles-area/)      | [MY SQL](./Rectangles-Area)      | Medium    ||
+1468| [Calculate Salaries](https://leetcode.com/problems/calculate-salaries/)      | [MY SQL](./Calculate-Salaries)      | Medium    ||
