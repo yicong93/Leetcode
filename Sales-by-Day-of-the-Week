@@ -1,0 +1,12 @@
+# Write your MySQL query statement below
+select i.item_category as Category,
+       ifnull(sum(case when weekday(order_date)=0 then o.quantity else 0 end),0) as Monday,
+       ifnull(sum(case when weekday(order_date)=1 then o.quantity else 0 end),0) as Tuesday,
+       ifnull(sum(case when weekday(order_date)=2 then o.quantity else 0 end),0) as Wednesday,
+       ifnull(sum(case when weekday(order_date)=3 then o.quantity else 0 end),0) as Thursday,
+       ifnull(sum(case when weekday(order_date)=4 then o.quantity else 0 end),0) as Friday,
+       ifnull(sum(case when weekday(order_date)=5 then o.quantity else 0 end),0) as Saturday,
+       ifnull(sum(case when weekday(order_date)=6 then o.quantity else 0 end),0) as Sunday
+from Orders o right join Items i on o.item_id=i.item_id
+group by i.item_category
+order by i.item_category;
