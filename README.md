@@ -251,3 +251,4 @@
 1459| [Rectangles Area](https://leetcode.com/problems/rectangles-area/)      | [MY SQL](./Rectangles-Area)      | Medium    ||
 1468| [Calculate Salaries](https://leetcode.com/problems/calculate-salaries/)      | [MY SQL](./Calculate-Salaries)      | Medium    ||
 1479| [Sales by Day of the Week](https://leetcode.com/problems/sales-by-day-of-the-week/)      | [MY SQL](./Sales-by-Day-of-the-Week)      | Hard    ||
+1484| [Group Sold Products By The Date](https://leetcode.com/problems/group-sold-products-by-the-date/) | [MY SQL](./Group-Sold-Products-By-The-Date)  | Easy    ||
