@@ -1,0 +1,11 @@
+# Write your MySQL query statement below
+SELECT *
+FROM Users
+WHERE mail REGEXP '^[a-zA-Z][a-zA-Z0-9._-]*@leetcode.com$';
+
+
+# ^[A-Za-z] the first character must be a letter
+# [a-zA-Z0-9._-] * match any number of letters, numbers, underscore, periods, dashes 
+# (the * sign indicating "any number of, including zero")
+# @leetcode.com$ the email must end with exactly "@leetcode.com" 
+# (the $ sign indicating "ending with")
