@@ -1,0 +1,30 @@
+class Solution:
+    def decodeString(self, s: str) -> str:
+        a=[]
+        b=[]
+        string=""
+        i=0
+        while i<len(s):
+            if s[i].isdigit():
+                cnt=0
+                while s[i].isdigit():
+                    cnt=cnt*10+int(s[i])
+                    i+=1
+            elif s[i].isalpha():
+                string+=s[i]
+                i+=1
+            elif s[i]=='[':
+                a.append(cnt)
+                b.append(string)
+                string=""
+                i+=1
+            else:
+                cnt=a.pop()
+                last_str=b.pop()
+                string=last_str+cnt*string
+                i+=1
+        return string
+        
+        
+        # time:o(n^2) "while loop"* ("string+=s[i]" + "string*cnt")
+        # space:o(n) "string"
