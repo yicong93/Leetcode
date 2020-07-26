@@ -1,0 +1,10 @@
+select c.name as country
+from
+(select caller_id as id, duration
+from Calls
+union all
+select callee_id, duration
+from Calls) a join Person b on a.id=b.id
+join Country c on left(b.phone_number,3)=c.country_code
+group by c.name
+having avg(a.duration)>(select avg(duration) from Calls);
