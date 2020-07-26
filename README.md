@@ -254,3 +254,4 @@
 1484| [Group Sold Products By The Date](https://leetcode.com/problems/group-sold-products-by-the-date/) | [MY SQL](./Group-Sold-Products-By-The-Date)  | Easy    ||
 1495| [Friendly Movies Streamed Last Month](https://leetcode.com/problems/friendly-movies-streamed-last-month/) | [MY SQL](./Friendly-Movies-Streamed-Last-Month)  | Easy    ||
 1501| [Countries You Can Safely Invest In](https://leetcode.com/problems/countries-you-can-safely-invest-in/) | [MY SQL](./Countries-You-Can-Safely-Invest-In)  | Medium    ||
+1511| [Customer Order Frequency](https://leetcode.com/problems/customer-order-frequency/) | [MY SQL](./Customer-Order-Frequency)  | Easy    ||
