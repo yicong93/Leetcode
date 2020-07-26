@@ -257,3 +257,4 @@
 1501| [Countries You Can Safely Invest In](https://leetcode.com/problems/countries-you-can-safely-invest-in/) | [MY SQL](./Countries-You-Can-Safely-Invest-In)  | Medium    ||
 1511| [Customer Order Frequency](https://leetcode.com/problems/customer-order-frequency/) | [MY SQL](./Customer-Order-Frequency)  | Easy    ||
 1517| [Find Users With Valid E-Mails](https://leetcode.com/problems/find-users-with-valid-e-mails/) | [MY SQL](./Find-Users-With-Valid-E-Mails)  | Easy    ||
+1527| [Patients With a Condition](https://leetcode.com/problems/patients-with-a-condition/) | [MY SQL](./Patients-With-a-Condition)  | Easy    ||
