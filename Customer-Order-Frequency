@@ -1,0 +1,10 @@
+select d.customer_id, d.name
+from
+(select a.customer_id, a.name,left(b.order_date,7) as date
+from Customers a join Orders b on a.customer_id=b.customer_id
+join Product c on b.product_id=c.product_id
+where left(b.order_date,7)='2020-06' or left(b.order_date,7)='2020-07'
+group by a.customer_id, a.name,left(b.order_date,7)
+having sum(b.quantity*c.price)>=100) d
+group by d.customer_id, d.name
+having count(distinct d.date)=2;
