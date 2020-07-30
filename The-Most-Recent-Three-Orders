@@ -1,0 +1,19 @@
+# Write your MySQL query statement below
+select d.name as customer_name, c.customer_id,c.order_id,c.order_date
+from
+(select a.customer_id,a.order_date,a.order_id
+from Orders a join Orders b on a.customer_id=b.customer_id and a.order_date<=b.order_date
+group by a.customer_id,a.order_date,a.order_id
+having count(distinct b.order_date)<=3) c join Customers d on c.customer_id=d.customer_id
+order by d.name, c.customer_id,c.order_date desc;
+
+
+
+
+
+select c.customer_name, c.customer_id,c.order_id,c.order_date
+from
+(select b.name as customer_name,a.customer_id,a.order_id,a.order_date,row_number() over(partition by a.customer_id order by a.order_date desc) as ranks
+from Orders a join Customers b on a.customer_id=b.customer_id) c
+where c.ranks<=3
+order by c.customer_name, c.customer_id,c.order_date desc;
