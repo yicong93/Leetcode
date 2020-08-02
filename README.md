@@ -24,7 +24,8 @@
 122| [Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/)      | [Python](./Best-Time-to-Buy-and-Sell-Stock-II)      | _O(n)_         | _O(1)_          | Easy        ||
 238| [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/)      | [Python](./Product-of-Array-Except-Self)      | _O(n)_         | _O(1)_          | Medium        ||
 283| [Move Zeroes](https://leetcode.com/problems/move-zeroes/)      | [Python](./Move-Zeroes)      | _O(n)_         | _O(1)_          | Easy        ||
-509| [Fibonacci Number](https://leetcode.com/problems/fibonacci-number/)      | [Python](./Fibonacci-Number)      | _O(n)_         | _O(1)_          | Easy        ||
+509| [Fibonacci Number](https://leetcode.com/problems/fibonacci-number/)      | [Python](./Fibonacci-Number)      | _O(n)_         | _O(1)_          | Easy     ||
+912| [Sort an Array](https://leetcode.com/problems/sort-an-array/)      | [Python](./Sort-an-Array)      | _O(nlogn)_         | _O(logn)_          | Medium     ||
 #| [Leftmost Column with at Least a One]()      | [Python](./Leftmost-Column-with-at-Least-a-One)      | _O(n+m)_         | _O(1)_          |         ||
 
 ## String
