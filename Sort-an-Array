@@ -1,0 +1,120 @@
+class Solution(object):
+    def sortArray(self, nums):
+        """
+        :type nums: List[int]
+        :rtype: List[int]
+        """
+        # merge sort
+        if not nums or len(nums)<=1:
+            return nums
+        mid=len(nums)//2
+        left=self.sortArray(nums[:mid])
+        right=self.sortArray(nums[mid:])
+        # l=0
+        # r=len(nums)-1
+        # mid=(l+r)//2
+        # left=self.sortArray(nums[:mid+1])
+        # right=self.sortArray(nums[mid+1:])
+        return self.sort(left,right)
+    
+    def sort(self,left,right):
+        arr=[]
+        i=0
+        j=0
+        while i<len(left) and j<len(right):
+            if left[i]<right[j]:
+                arr.append(left[i])
+                i+=1
+            else:
+                arr.append(right[j])
+                j+=1
+        while i<len(left):
+            arr.append(left[i])
+            i+=1
+        while j<len(right):
+            arr.append(right[j])
+            j+=1
+        # cannot use arr.append(left[i:]) as it will store list into arr
+        return arr
+        
+        
+# quick sort
+#         import random
+#         if not nums or len(nums)<=1:
+#             return nums
+#         self.quick_sort(nums,0,len(nums)-1)
+#         return nums
+    
+#     def quick_sort(self,nums,left,right):
+#         if left>=right:
+#             return
+#         pivot=random.randint(left,right)
+#         new_pivot=self.partition(nums,left,right,pivot)
+#         self.quick_sort(nums,left,new_pivot-1)
+#         self.quick_sort(nums,new_pivot+1,right)
+        
+#     def partition(self,nums,left,right,pivot):
+#         nums[pivot],nums[right]=nums[right],nums[pivot]
+#         l=left
+#         r=right
+#         pivot_num=nums[right]
+#         while l<=r:
+#             if nums[l]<pivot_num:
+#                 l+=1
+#             elif nums[r]>=pivot_num:
+#                 r-=1
+#             else:
+#                 nums[l],nums[r]=nums[r],nums[l]
+#                 l+=1
+#                 r-=1
+#         nums[l],nums[right]=nums[right],nums[l]
+#         return l
+
+        # selection sort
+        # if not nums or len(nums)<=1:
+        #             return nums
+        # for i in range(len(nums)-1,0,-1):
+        #         max_index=0
+        #         for j in range(i+1):
+        #             if nums[j]>nums[max_index]:
+        #                 max_index=j
+        #         nums[i],nums[max_index]=nums[max_index],nums[i]
+        # return nums
+        
+        # insertion sort
+        # if not nums or len(nums)<=1:
+        #     return nums
+        # for i in range(1,len(nums)):
+        #     cur=nums[i]
+        #     k=i
+        #     while k>0 and cur<nums[k-1]:
+        #         nums[k]=nums[k-1]
+        #         k-=1
+        #     nums[k]=cur
+        # return nums
+        
+        # bubble sort
+        # if not nums or len(nums)<=1:
+        #     return nums
+        # for i in range(len(nums)-1,0,-1):
+        #     for j in range(i):
+        #         if nums[j]>nums[j+1]:
+        #             nums[j],nums[j+1]=nums[j+1],nums[j]
+        # return nums
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
