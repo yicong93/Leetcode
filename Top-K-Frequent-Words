@@ -1,0 +1,27 @@
+class Solution:
+    def topKFrequent(self, words: List[str], k: int) -> List[str]:
+        import heapq
+        heap=[]
+        dic={}
+        ans=[]
+        for i in words:
+            if i not in dic:
+                dic[i]=1
+            else:
+                dic[i]+=1
+        # for word in dic:
+        #     heapq.heappush(heap,(-dic[word],word))
+        heap=[(-dic[word],word) for word in dic]
+        heapq.heapify(heap)
+        for j in range(0,k):
+            ans.append(heapq.heappop(heap)[1])
+        return ans
+  
+
+
+    # If two words have the same frequency, then the word with the lower alphabetical order comes first.
+    # therefore, to store(dic[word],word) and sort them could cause wrong results if there the selected words have the same frequency.
+    #["i", "leetcode", "i", "love", "coding"],2
+    # wrong result: [i,love]
+    # true result: [i,coding]
+    
