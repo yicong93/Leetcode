@@ -263,3 +263,4 @@
 1517| [Find Users With Valid E-Mails](https://leetcode.com/problems/find-users-with-valid-e-mails/) | [MY SQL](./Find-Users-With-Valid-E-Mails)  | Easy    ||
 1527| [Patients With a Condition](https://leetcode.com/problems/patients-with-a-condition/) | [MY SQL](./Patients-With-a-Condition)  | Easy    ||
 1532| [The Most Recent Three Orders](https://leetcode.com/problems/the-most-recent-three-orders/) | [MY SQL](./The-Most-Recent-Three-Orders)  | Medium    ||
+1543| [Fix Product Name Format](https://leetcode.com/problems/fix-product-name-format/) | [MY SQL](./Fix-Product-Name-Format)  | Easy    ||
