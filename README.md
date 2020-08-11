@@ -141,7 +141,7 @@
 ## Backtracking
 |  #  | Title           |  Solution       |  Time           | Space           | Difficulty    |Note| 
 |-----|---------------- | --------------- | --------------- | --------------- | ------------- |-----|
-46| [Permutations](https://leetcode.com/problems/permutations/)      | [Python](./Permutations)      | _O(n!)_         | _O(n!)_          | Medium        ||
+46| [Permutations](https://leetcode.com/problems/permutations/)      | [Python](./Permutations)      | _O(n!)_         | _O(n)_          | Medium        ||
 
 
 ## sql
