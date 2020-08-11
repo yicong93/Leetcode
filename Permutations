@@ -1,0 +1,14 @@
+class Solution:
+    def permute(self, nums: List[int]) -> List[List[int]]:
+        def backtrack(first):
+            if first==n:
+                res.append((nums[:]))
+            for i in range(first,n):
+                nums[i],nums[first]=nums[first],nums[i]
+                backtrack(first+1)
+                nums[first],nums[i]=nums[i],nums[first]
+                
+        n=len(nums)
+        res=[]
+        backtrack(0)
+        return res
