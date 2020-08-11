@@ -11,6 +11,7 @@
 * [Queue](https://github.com/yicong93/LeetCode#Queue)
 * [Depth First Search](https://github.com/yicong93/LeetCode#Depth-First-Search)
 * [Dynamic Programming](https://github.com/yicong93/LeetCode#Dynamic-Programming)
+* [Backtracking](https://github.com/yicong93/LeetCode#Backtracking)
 
 ## Database
 * [SQL](https://github.com/yicong93/LeetCode#sql)
@@ -137,8 +138,9 @@
 1143| [Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/)      | [Python](./Longest-Common-Subsequence)      | _O(m*n)_         | _O(m*n)_          | Medium        ||
 
 
-
-
+## Backtracking
+|  #  | Title           |  Solution       |  Time           | Space           | Difficulty    |Note| 
+46| [Permutations](https://leetcode.com/problems/permutations/)      | [Python](./Permutations)      | _O(n!)_         | _O(n!)_          | Medium        ||
 
 ## sql
 |  #  | Title           |  Solution       |Difficulty    |Note| 
