@@ -268,3 +268,4 @@
 1527| [Patients With a Condition](https://leetcode.com/problems/patients-with-a-condition/) | [MY SQL](./Patients-With-a-Condition)  | Easy    ||
 1532| [The Most Recent Three Orders](https://leetcode.com/problems/the-most-recent-three-orders/) | [MY SQL](./The-Most-Recent-Three-Orders)  | Medium    ||
 1543| [Fix Product Name Format](https://leetcode.com/problems/fix-product-name-format/) | [MY SQL](./Fix-Product-Name-Format)  | Easy    ||
+1549| [The Most Recent Orders for Each Product](https://leetcode.com/problems/the-most-recent-orders-for-each-product/) | [MY SQL](./The-Most-Recent-Orders-for-Each-Product)  | Medium    ||
