@@ -1,0 +1,19 @@
+class Solution:
+    def smallestRange(self, nums: List[List[int]]) -> List[int]:
+        import heapq
+        heap=[]
+        maxval=float('-inf')
+        for i in range(len(nums)):
+            if nums[i]:
+                heap.append((nums[i][0],i,0))
+                maxval=max(maxval,nums[i][0])
+        heapq.heapify(heap)
+        res=[float('-inf'),float('inf')]
+        while len(heap)==len(nums):
+            minval,num_index,ele_index=heapq.heappop(heap)
+            if maxval-minval<res[1]-res[0]:
+                res=[minval,maxval]
+            if ele_index<len(nums[num_index])-1:
+                heapq.heappush(heap,(nums[num_index][ele_index+1],num_index,ele_index+1))
+                maxval=max(maxval,nums[num_index][ele_index+1])
+        return res
