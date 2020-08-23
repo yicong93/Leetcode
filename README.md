@@ -42,6 +42,7 @@
 125| [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)      | [Python](./Valid-Palindrome)      | _O(n)_         | _O(1)_          | Easy     ||
 394| [Decode String](https://leetcode.com/problems/decode-string/)      | [Python](./Decode-String)      | _O(n^2)_         | _O(n)_          | Medium        ||
 678| [Valid Parenthesis String](https://leetcode.com/problems/valid-parenthesis-string/)      | [Python](./Valid-Parenthesis-String)      | _O(n)_         | _O(1)_          | Medium        ||
+929| [Unique Email Addresses](https://leetcode.com/problems/unique-email-addresses/)      | [Python](./Unique-Email-Addresses)      | _O(c)_         | _O(c)_          | Easy        ||
 
 
 ## Linked List
