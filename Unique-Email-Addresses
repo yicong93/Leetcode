@@ -1,0 +1,30 @@
+class Solution:
+    def numUniqueEmails(self, emails: List[str]) -> int:
+        res=set()
+        for email in emails:
+            local,domain=email.split('@')
+            local=list(local.split('+'))[0]
+            email=''.join(list(local.split('.')))+'@'+domain
+            if email not in res:
+                res.add(email)
+        return len(res)
+        
+        
+        
+        
+        
+        
+        
+class Solution:
+    def numUniqueEmails(self, emails: List[str]) -> int:
+        seen = set()
+        for email in emails:
+            local, domain = email.split('@')
+            if '+' in local:
+                local = local[:local.index('+')]
+            seen.add(local.replace('.','') + '@' + domain)
+        return len(seen)
+        
+        
+        #Time Complexity: O(C), where C is the total content of emails.
+        #Space Complexity: O(C).
