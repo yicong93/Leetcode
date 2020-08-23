@@ -1,0 +1,15 @@
+# Write your MySQL query statement below
+select c.user_id,c.user_name,(c.credit+ifnull(sum(d.amount),0)) as credit,
+       case when (c.credit+ifnull(sum(d.amount),0))<0 then 'Yes' else 'No' end as credit_limit_breached
+from
+(select a.user_id,a.user_name,(a.credit-ifnull(sum(b.amount),0)) as credit
+from Users a left join Transaction b on a.user_id=b.paid_by
+group by 1,2) c left join Transaction d on c.user_id=d.paid_to
+group by 1,2;
+
+
+
+select a.user_id,a.user_name,ifnull(sum(case when a.user_id=b.paid_by then -b.amount else b.amount end),0)+a.credit as credit,
+       case when ifnull(sum(case when a.user_id=b.paid_by then -b.amount else b.amount end),0)+a.credit<0 then 'Yes' else 'No' end as credit_limit_breached
+from Users a left join Transaction b on a.user_id=b.paid_by or a.user_id=b.paid_to
+group by 1,2;
