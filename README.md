@@ -33,7 +33,7 @@
 ## Two Pointers
 |  #  | Title           |  Solution       |  Time           | Space           | Difficulty    |Note| 
 |-----|---------------- | --------------- | --------------- | --------------- | ------------- |-----|
-904| [Fruit Into Baskets](https://leetcode.com/problems/fruit-into-baskets/      | [Python](./Fruit-Into-Baskets)      | _O(n)_         | _O(n)_     | Medium   ||
+904| [Fruit Into Baskets](https://leetcode.com/problems/fruit-into-baskets/)      | [Python](./Fruit-Into-Baskets)      | _O(n)_         | _O(n)_     | Medium   ||
 
 ## String
 |  #  | Title           |  Solution       |  Time           | Space           | Difficulty    |Note| 
