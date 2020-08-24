@@ -1,0 +1,15 @@
+class Solution:
+    def totalFruit(self, tree: List[int]) -> int:
+        import collections
+        ans=0
+        i=0
+        count=collections.Counter()
+        for index,j in enumerate(tree):
+            count[j]+=1
+            while len(count)>=3:
+                count[tree[i]]-=1
+                if count[tree[i]]==0:
+                    del count[tree[i]]
+                i+=1
+            ans=max(ans,index-i+1)
+        return ans
