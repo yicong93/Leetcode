@@ -33,6 +33,7 @@
 ## Two Pointers
 |  #  | Title           |  Solution       |  Time           | Space           | Difficulty    |Note| 
 |-----|---------------- | --------------- | --------------- | --------------- | ------------- |-----|
+15| [3Sum](https://leetcode.com/problems/3sum/)      | [Python](./3Sum)      | _O(n^2)_         | _O(1)_     | Medium   ||
 904| [Fruit Into Baskets](https://leetcode.com/problems/fruit-into-baskets/)      | [Python](./Fruit-Into-Baskets)      | _O(n)_         | _O(n)_     | Medium   ||
 
 ## String
