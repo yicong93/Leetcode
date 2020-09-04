@@ -35,6 +35,7 @@
 |-----|---------------- | --------------- | --------------- | --------------- | ------------- |-----|
 15| [3Sum](https://leetcode.com/problems/3sum/)      | [Python](./3Sum)      | _O(n^2)_         | _O(1)_     | Medium   ||
 904| [Fruit Into Baskets](https://leetcode.com/problems/fruit-into-baskets/)      | [Python](./Fruit-Into-Baskets)      | _O(n)_         | _O(n)_     | Medium   ||
+27| [Remove Element](https://leetcode.com/problems/remove-element/)      | [Python](./Remove-Element)      | _O(n)_         | _O(1)_     | Easy   ||
 
 ## String
 |  #  | Title           |  Solution       |  Time           | Space           | Difficulty    |Note| 
