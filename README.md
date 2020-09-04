@@ -280,3 +280,4 @@
 1543| [Fix Product Name Format](https://leetcode.com/problems/fix-product-name-format/) | [MY SQL](./Fix-Product-Name-Format)  | Easy    ||
 1549| [The Most Recent Orders for Each Product](https://leetcode.com/problems/the-most-recent-orders-for-each-product/) | [MY SQL](./The-Most-Recent-Orders-for-Each-Product)  | Medium    ||
 1555| [Bank Account Summary](https://leetcode.com/problems/bank-account-summary/) | [MY SQL](./Bank-Account-Summary)  | Medium    ||
+1565| [Unique Orders and Customers Per Month](https://leetcode.com/problems/unique-orders-and-customers-per-month/) | [MY SQL](./Unique-Orders-and-Customers-Per-Month)  | Easy    ||
