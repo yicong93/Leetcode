@@ -11,3 +11,33 @@ class Solution:
             vals.append(cur.val)
             cur=cur.next
         return vals==vals[::-1]
+        
+
+
+# Definition for singly-linked list.
+# class ListNode(object):
+#     def __init__(self, val=0, next=None):
+#         self.val = val
+#         self.next = next
+class Solution(object):
+    def isPalindrome(self, head):
+        """
+        :type head: ListNode
+        :rtype: bool
+        """
+        slow=fast=head
+        while fast and fast.next:
+            slow=slow.next
+            fast=fast.next.next
+        head2=None
+        while slow:
+            next_node=slow.next
+            slow.next=head2
+            head2=slow
+            slow=next_node
+        while head2:
+            if head.val!=head2.val:
+                return False
+            head2=head2.next
+            head=head.next
+        return True
