@@ -1,0 +1,9 @@
+# Write your MySQL query statement below
+with cte as(select a.customer_id,a.product_id, b.product_name, count(distinct a.order_id) as cnt
+from orders a
+join Products b on a.product_id=b.product_id
+group by 1,2,3)
+
+select customer_id,product_id,product_name
+from cte
+where (customer_id,cnt) in (select customer_id, max(cnt) as max_cnt from cte group by customer_id) and cnt>0;
