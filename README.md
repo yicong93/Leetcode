@@ -284,3 +284,4 @@
 1571| [Warehouse Manager](https://leetcode.com/problems/warehouse-manager/) | [MY SQL](./Warehouse-Manager)  | Medium    ||
 1581| [Customer Who Visited but Did Not Make Any Transactions](https://leetcode.com/problems/customer-who-visited-but-did-not-make-any-transactions/) | [MY SQL](./Customer-Who-Visited-but-Did-Not-Make-Any-Transactions)  | Easy    ||
 1587| [Bank Account Summary II](https://leetcode.com/problems/bank-account-summary-ii/) | [MY SQL](./Bank-Account-Summary-II)  | Easy    ||
+1596| [The Most Frequently Ordered Products for Each Customer](https://leetcode.com/problems/the-most-frequently-ordered-products-for-each-customer/) | [MY SQL](./The-Most-Frequently-Ordered-Products-for-Each-Customer)  | Medium    ||
