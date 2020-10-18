@@ -287,3 +287,4 @@
 1596| [The Most Frequently Ordered Products for Each Customer](https://leetcode.com/problems/the-most-frequently-ordered-products-for-each-customer/) | [MY SQL](./The-Most-Frequently-Ordered-Products-for-Each-Customer)  | Medium    ||
 1607| [Sellers With No Sales](https://leetcode.com/problems/sellers-with-no-sales/) | [MY SQL](./Sellers-With-No-Sales)  | Easy    ||
 1613| [Find the Missing IDs](https://leetcode.com/problems/find-the-missing-ids/) | [MY SQL](./Find-the-Missing-IDs)  | Medium    ||
+1623| [All Valid Triplets That Can Represent a Country](https://leetcode.com/problems/all-valid-triplets-that-can-represent-a-country/) | [MY SQL](./All-Valid-Triplets-That-Can-Represent-a-Country)  | Easy    ||
