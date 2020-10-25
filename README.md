@@ -288,3 +288,4 @@
 1607| [Sellers With No Sales](https://leetcode.com/problems/sellers-with-no-sales/) | [MY SQL](./Sellers-With-No-Sales)  | Easy    ||
 1613| [Find the Missing IDs](https://leetcode.com/problems/find-the-missing-ids/) | [MY SQL](./Find-the-Missing-IDs)  | Medium    ||
 1623| [All Valid Triplets That Can Represent a Country](https://leetcode.com/problems/all-valid-triplets-that-can-represent-a-country/) | [MY SQL](./All-Valid-Triplets-That-Can-Represent-a-Country)  | Easy    ||
+1633| [Percentage of Users Attended a Contest](https://leetcode.com/problems/percentage-of-users-attended-a-contest/) | [MY SQL](./APercentage-of-Users-Attended-a-Contest)  | Easy    ||
