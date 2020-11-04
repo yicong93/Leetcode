@@ -1,0 +1,21 @@
+# Write your MySQL query statement below
+with recursive months as(
+    select 1 as month
+    union all
+    select month + 1
+    from months
+    where month < 12),
+temp as(
+    select months.month,count(d.driver_id) as active_drivers
+    from months left join Drivers d on 
+    (year(d.join_date)<2020) or (year(d.join_date)=2020 and month(d.join_date)<=months.month)
+    group by months.month),
+temp2 as(
+    select month(r.requested_at) as month, count(r.ride_id) as accepted_rides
+    from Rides r join AcceptedRides a on r.ride_id=a.ride_id
+    where year(r.requested_at)=2020
+    group by month(r.requested_at))
+    
+select temp.month,temp.active_drivers,ifnull(temp2.accepted_rides,0)as accepted_rides
+from temp left join temp2 on temp.month=temp2.month
+order by temp.month;
