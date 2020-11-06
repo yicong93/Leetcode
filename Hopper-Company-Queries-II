@@ -1,0 +1,21 @@
+# Write your MySQL query statement below
+with recursive months as(
+     select 1 as month
+     union all
+     select month+1
+     from months
+     where month+1<=12),
+cte as(
+    select months.month,count(distinct d.driver_id) as active_drivers
+    from months left join Drivers d on (year(d.join_date)<2020) or (year(d.join_date)=2020 and month(d.join_date)<=months.month)
+group by months.month),
+cte2 as(
+select month(r.requested_at) as month,count(distinct a.driver_id) as driver_accept
+from Rides r join AcceptedRides a on r.ride_id=a.ride_id 
+where year(r.requested_at)=2020 
+group by month(r.requested_at))
+    
+select cte.month,round(ifnull(100*cte2.driver_accept/cte.active_drivers,0),2) as working_percentage
+from cte left join cte2 on cte.month=cte2.month 
+order by cte.month;
+    
