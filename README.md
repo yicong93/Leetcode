@@ -291,4 +291,5 @@
 1623| [All Valid Triplets That Can Represent a Country](https://leetcode.com/problems/all-valid-triplets-that-can-represent-a-country/) | [MY SQL](./All-Valid-Triplets-That-Can-Represent-a-Country)  | Easy    ||
 1633| [Percentage of Users Attended a Contest](https://leetcode.com/problems/percentage-of-users-attended-a-contest/) | [MY SQL](./Percentage-of-Users-Attended-a-Contest)  | Easy    ||
 1635| [Hopper Company Queries I](https://leetcode.com/problems/hopper-company-queries-i/) | [MY SQL](./Hopper-Company-Queries-I)  | Hard    ||
-1645| [Hopper Company Queries II](https://leetcode.com/problems/hopper-company-queries-ii/) | [MY SQL](./Hopper-Company-Queries-II)  | Hard    ||
+1645| [Hopper Company Queries II](https://leetcode.com/problems/hopper-company-queries-ii/) | [MY SQL](./Hopper-Company-Queries-II)  | Hard   ||
+1651| [Hopper Company Queries III](https://leetcode.com/problems/hopper-company-queries-iii/) | [MY SQL](./Hopper-Company-Queries-III)  | Hard   ||
