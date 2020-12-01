@@ -293,3 +293,4 @@
 1635| [Hopper Company Queries I](https://leetcode.com/problems/hopper-company-queries-i/) | [MY SQL](./Hopper-Company-Queries-I)  | Hard    ||
 1645| [Hopper Company Queries II](https://leetcode.com/problems/hopper-company-queries-ii/) | [MY SQL](./Hopper-Company-Queries-II)  | Hard   ||
 1651| [Hopper Company Queries III](https://leetcode.com/problems/hopper-company-queries-iii/) | [MY SQL](./Hopper-Company-Queries-III)  | Hard   ||
+1661| [Average Time of Process per Machine](https://leetcode.com/problems/average-time-of-process-per-machine/) | [MY SQL](./Average-Time-of-Process-per-Machine)  | Easy   ||
