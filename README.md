@@ -29,6 +29,7 @@
 509| [Fibonacci Number](https://leetcode.com/problems/fibonacci-number/)      | [Python](./Fibonacci-Number)      | _O(n)_         | _O(1)_          | Easy     ||
 912| [Sort an Array](https://leetcode.com/problems/sort-an-array/)      | [Python](./Sort-an-Array)      | _O(nlogn)_         | _O(logn)_          | Medium     ||
 #| [Leftmost Column with at Least a One]()      | [Python](./Leftmost-Column-with-at-Least-a-One)      | _O(n+m)_         | _O(1)_          |         ||
+1480| [Running Sum of 1d Array](https://leetcode.com/problems/running-sum-of-1d-array/)  | [Python](./Running-Sum-of-1d-Array)| _O(n)_  | _O(1)_    | Easy     ||
 1672| [Richest Customer Wealth](https://leetcode.com/problems/richest-customer-wealth/)  | [Python](./Richest-Customer-Wealth)| _O(n)_  | _O(1)_    | Easy     ||
 
 ## Two Pointers
