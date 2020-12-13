@@ -299,3 +299,4 @@
 1661| [Average Time of Process per Machine](https://leetcode.com/problems/average-time-of-process-per-machine/) | [MY SQL](./Average-Time-of-Process-per-Machine)  | Easy   ||
 1667| [Fix Names in a Table](https://leetcode.com/problems/fix-names-in-a-table/) | [MY SQL](./Fix-Names-in-a-Table)  | Easy   ||
 1677| [Product's Worth Over Invoices](https://leetcode.com/problems/products-worth-over-invoices/) | [MY SQL](./Product's-Worth-Over-Invoices)  | Easy   ||
+1683| [Invalid Tweets](https://leetcode.com/problems/invalid-tweets/) | [MY SQL](./Invalid-Tweets)  | Easy   ||
