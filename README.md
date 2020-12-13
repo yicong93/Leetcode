@@ -29,6 +29,7 @@
 509| [Fibonacci Number](https://leetcode.com/problems/fibonacci-number/)      | [Python](./Fibonacci-Number)      | _O(n)_         | _O(1)_          | Easy     ||
 912| [Sort an Array](https://leetcode.com/problems/sort-an-array/)      | [Python](./Sort-an-Array)      | _O(nlogn)_         | _O(logn)_          | Medium     ||
 #| [Leftmost Column with at Least a One]()      | [Python](./Leftmost-Column-with-at-Least-a-One)      | _O(n+m)_         | _O(1)_          |         ||
+1470| [Shuffle the Array](https://leetcode.com/problems/shuffle-the-array/)      | [Python](./Shuffle-the-Array)      | _O(n)_         | _O(n)_  | Easy        ||
 1480| [Running Sum of 1d Array](https://leetcode.com/problems/running-sum-of-1d-array/)  | [Python](./Running-Sum-of-1d-Array)| _O(n)_  | _O(1)_    | Easy     ||
 1672| [Richest Customer Wealth](https://leetcode.com/problems/richest-customer-wealth/)  | [Python](./Richest-Customer-Wealth)| _O(n)_  | _O(1)_    | Easy     ||
 
@@ -54,7 +55,6 @@
 678| [Valid Parenthesis String](https://leetcode.com/problems/valid-parenthesis-string/)      | [Python](./Valid-Parenthesis-String)      | _O(n)_         | _O(1)_          | Medium        ||
 929| [Unique Email Addresses](https://leetcode.com/problems/unique-email-addresses/)      | [Python](./Unique-Email-Addresses)      | _O(c)_         | _O(c)_          | Easy        ||
 1119| [Remove Vowels from a String](https://leetcode.com/problems/remove-vowels-from-a-string/)      | [Python](./Remove-Vowels-from-a-String)      | _O(n)_         | _O(1)_          | Easy        ||
-1470| [Shuffle the Array](https://leetcode.com/problems/shuffle-the-array/)      | [Python](./Shuffle-the-Array)      | _O(n)_         | _O(n)_  | Easy        ||
 
 
 ## Linked List
