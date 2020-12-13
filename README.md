@@ -54,6 +54,7 @@
 678| [Valid Parenthesis String](https://leetcode.com/problems/valid-parenthesis-string/)      | [Python](./Valid-Parenthesis-String)      | _O(n)_         | _O(1)_          | Medium        ||
 929| [Unique Email Addresses](https://leetcode.com/problems/unique-email-addresses/)      | [Python](./Unique-Email-Addresses)      | _O(c)_         | _O(c)_          | Easy        ||
 1119| [Remove Vowels from a String](https://leetcode.com/problems/remove-vowels-from-a-string/)      | [Python](./Remove-Vowels-from-a-String)      | _O(n)_         | _O(1)_          | Easy        ||
+1470| [Shuffle the Array](https://leetcode.com/problems/shuffle-the-array/)      | [Python](./Shuffle-the-Array)      | _O(n)_         | _O(n)_  | Easy        ||
 
 
 ## Linked List
