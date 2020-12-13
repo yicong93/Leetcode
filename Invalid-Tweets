@@ -1,0 +1,7 @@
+select distinct tweet_id
+from Tweets
+where length(content)>15;
+
+
+difference between length() and char_length():
+https://stackoverflow.com/questions/1734334/mysql-length-vs-char-length?rq=1
