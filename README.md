@@ -134,7 +134,8 @@
 |  #  | Title           |  Solution       |  Time           | Space           | Difficulty    |Note| 
 |-----|---------------- | --------------- | --------------- | --------------- | ------------- |-----|
 632| [Smallest Range Covering Elements from K Lists](https://leetcode.com/problems/smallest-range-covering-elements-from-k-lists/)      | [Python](./Smallest-Range-Covering-Elements-from-K-Lists)      | _O(k+(n-k)logk)_         | _O(k)_          | Hard        ||
-1046| [Last Stone Weight](https://leetcode.com/problems/last-stone-weight/)      | [Python](./Last-Stone-Weight)      | _O(nlogn)_         | _O(n)_          | Easy        ||
+1046| [Last Stone Weight](https://leetcode.com/problems/last-stone-weight/)      | [Python](./Last-Stone-Weight)      | _O(nlogn)_      | _O(n)_ | Easy        ||
+1512| [Number of Good Pairs](https://leetcode.com/problems/number-of-good-pairs/)   | [Python](./Number-of-Good-Pairs)      | _O(n)_      | _O(n)_ | Easy      ||
 
 ## Queue
 |  #  | Title           |  Solution       |  Time           | Space           | Difficulty    |Note| 
