@@ -303,3 +303,4 @@
 1667| [Fix Names in a Table](https://leetcode.com/problems/fix-names-in-a-table/) | [MY SQL](./Fix-Names-in-a-Table)  | Easy   ||
 1677| [Product's Worth Over Invoices](https://leetcode.com/problems/products-worth-over-invoices/) | [MY SQL](./Product's-Worth-Over-Invoices)  | Easy   ||
 1683| [Invalid Tweets](https://leetcode.com/problems/invalid-tweets/) | [MY SQL](./Invalid-Tweets)  | Easy   ||
+1693| [Daily Leads and Partners](https://leetcode.com/problems/daily-leads-and-partners/) | [MY SQL](./Daily-Leads-and-Partners)  | Easy   ||
