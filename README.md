@@ -57,6 +57,7 @@
 929| [Unique Email Addresses](https://leetcode.com/problems/unique-email-addresses/)      | [Python](./Unique-Email-Addresses)      | _O(c)_         | _O(c)_          | Easy        ||
 1108| [Defanging an IP Address](https://leetcode.com/problems/defanging-an-ip-address/)      | [Python](./Defanging-an-IP-Address)      | _O(n)_         | _O(n)_          | Easy        ||
 1119| [Remove Vowels from a String](https://leetcode.com/problems/remove-vowels-from-a-string/)      | [Python](./Remove-Vowels-from-a-String)      | _O(n)_         | _O(1)_          | Easy        ||
+1528| [Shuffle String](https://leetcode.com/problems/shuffle-string/)      | [Python](./Shuffle-String)      | _O(n)_         | _O(n)_   | Easy        ||
 1678| [Goal Parser Interpretation](https://leetcode.com/problems/goal-parser-interpretation/) | [Python](./Goal-Parser-Interpretation) | _O(n)_ | _O(1)_| Easy  ||
 
 
@@ -107,6 +108,7 @@
 692| [Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/)      | [Python](./Top-K-Frequent-Words)      | _O(n+klogn)_         | _O(n)_          | Medium         ||
 811| [Subdomain Visit Count](https://leetcode.com/problems/subdomain-visit-count/)      | [Python](./Subdomain-Visit-Count)      | _O(n)_         | _O(n)_          | Easy        ||
 1133| [Largest Unique Number](https://leetcode.com/problems/largest-unique-number/)      | [Python](./Largest-Unique-Number)      | _O(n)_         | _O(n)_          | Easy     ||    
+1365| [How Many Numbers Are Smaller Than the Current Number](https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/)      | [Python](./How-Many-Numbers-Are-Smaller-Than-the-Current-Number)      | _O(n^2)_         | _O(n)_          | Easy     ||  
 
 
 ## Stack
