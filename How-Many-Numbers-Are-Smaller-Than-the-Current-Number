@@ -1,0 +1,16 @@
+class Solution:
+    def smallerNumbersThanCurrent(self, nums: List[int]) -> List[int]:
+        res=[0]*len(nums)
+        hashtable={}
+        sort_nums=sorted(nums)
+        for i in range(len(sort_nums)):
+            if i==0:
+                hashtable[sort_nums[i]]=0
+            else:
+                for j in range(i-1,-1,-1):
+                    if sort_nums[j]<sort_nums[i]:
+                        hashtable[sort_nums[i]]=j+1
+                        break
+        for k in range(len(nums)):
+            res[k]=hashtable[nums[k]]
+        return res
