@@ -13,6 +13,7 @@
 * [Depth First Search](https://github.com/yicong93/LeetCode#Depth-First-Search)
 * [Dynamic Programming](https://github.com/yicong93/LeetCode#Dynamic-Programming)
 * [Backtracking](https://github.com/yicong93/LeetCode#Backtracking)
+* [Math](https://github.com/yicong93/LeetCode#Math)
 
 ## Database
 * [SQL](https://github.com/yicong93/LeetCode#sql)
@@ -59,7 +60,7 @@
 1119| [Remove Vowels from a String](https://leetcode.com/problems/remove-vowels-from-a-string/)      | [Python](./Remove-Vowels-from-a-String)      | _O(n)_         | _O(1)_          | Easy        ||
 1528| [Shuffle String](https://leetcode.com/problems/shuffle-string/)      | [Python](./Shuffle-String)      | _O(n)_         | _O(n)_   | Easy        ||
 1678| [Goal Parser Interpretation](https://leetcode.com/problems/goal-parser-interpretation/) | [Python](./Goal-Parser-Interpretation) | _O(n)_ | _O(1)_| Easy  ||
-
+1684| [Count the Number of Consistent Strings](https://leetcode.com/problems/count-the-number-of-consistent-strings/) | [Python](./Count-the-Number-of-Consistent-Strings) | _O(m)_ | _O(n)_| Easy  ||
 
 ## Linked List
 |  #  | Title           |  Solution       |  Time           | Space           | Difficulty    |Note| 
@@ -164,6 +165,10 @@
 |-----|---------------- | --------------- | --------------- | --------------- | ------------- |-----|
 46| [Permutations](https://leetcode.com/problems/permutations/)      | [Python](./Permutations)      | _O(n!)_         | _O(n)_          | Medium        ||
 
+## Math
+|  #  | Title           |  Solution       |  Time           | Space           | Difficulty    |Note| 
+|-----|---------------- | --------------- | --------------- | --------------- | ------------- |-----|
+1281| [Subtract the Product and Sum of Digits of an Integer](https://leetcode.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer/)      | [Python](./Subtract-the-Product-and-Sum-of-Digits-of-an-Integer)      | _O(n)_         | _O(1)_          | Easy        ||
 
 ## sql
 |  #  | Title           |  Solution       |Difficulty    |Note| 
