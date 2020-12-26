@@ -308,3 +308,4 @@
 1677| [Product's Worth Over Invoices](https://leetcode.com/problems/products-worth-over-invoices/) | [MY SQL](./Product's-Worth-Over-Invoices)  | Easy   ||
 1683| [Invalid Tweets](https://leetcode.com/problems/invalid-tweets/) | [MY SQL](./Invalid-Tweets)  | Easy   ||
 1693| [Daily Leads and Partners](https://leetcode.com/problems/daily-leads-and-partners/) | [MY SQL](./Daily-Leads-and-Partners)  | Easy   ||
+1699| [Number of Calls Between Two Persons](https://leetcode.com/problems/number-of-calls-between-two-persons/) | [MY SQL](./Number-of-Calls-Between-Two-Persons)  | Medium   ||
