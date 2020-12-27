@@ -1,0 +1,12 @@
+class Solution:
+    def calculateTime(self, keyboard: str, word: str) -> int:
+        dic={}
+        res=0
+        for i in range(len(keyboard)):
+            dic[keyboard[i]]=i
+        pre=0
+        for j in word:
+            cur=dic[j]
+            res+=abs(cur-pre)
+            pre=cur
+        return res
