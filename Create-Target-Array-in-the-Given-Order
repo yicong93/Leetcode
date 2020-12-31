@@ -1,0 +1,24 @@
+class Solution:
+    def createTargetArray(self, nums: List[int], index: List[int]) -> List[int]:
+        if not nums or len(nums)<2:
+            return nums
+        res=[0]*len(nums)
+        for i in range(1,len(index)):
+            val=index[i]
+            for j in range(i):
+                if index[j]>=val:
+                    index[j]+=1
+        for k in range(len(index)):
+            res[index[k]]=nums[k]
+        return res
+    
+
+class Solution:
+    def createTargetArray(self, nums: List[int], index: List[int]) -> List[int]:
+        final_arr = []
+    
+        for i in range(len(index)):
+            final_arr.insert(index[i],nums[i]) 
+
+        return final_arr
+                    
