@@ -31,6 +31,7 @@
 912| [Sort an Array](https://leetcode.com/problems/sort-an-array/)      | [Python](./Sort-an-Array)      | _O(nlogn)_         | _O(logn)_          | Medium     ||
 #| [Leftmost Column with at Least a One]()      | [Python](./Leftmost-Column-with-at-Least-a-One)      | _O(n+m)_         | _O(1)_          |         ||
 1313| [Decompress Run Length Encoded List](https://leetcode.com/problems/decompress-run-length-encoded-list/)      | [Python](./Decompress-Run-Length-Encoded-List)      | _O(n)_         | _O(n)_  | Easy        ||
+1389| [Create Target Array in the Given Order](https://leetcode.com/problems/create-target-array-in-the-given-order/)  | [Python](./Create-Target-Array-in-the-Given-Order)   | _O(n^2)_ | _O(n)_  | Easy   ||
 1470| [Shuffle the Array](https://leetcode.com/problems/shuffle-the-array/)      | [Python](./Shuffle-the-Array)      | _O(n)_         | _O(n)_  | Easy        ||
 1480| [Running Sum of 1d Array](https://leetcode.com/problems/running-sum-of-1d-array/)  | [Python](./Running-Sum-of-1d-Array)| _O(n)_  | _O(1)_    | Easy     ||
 1603| [Design Parking System](https://leetcode.com/problems/design-parking-system/)  | [Python](./Design-Parking-System)| _O(1)_  | _O(1)_    | Easy     ||
