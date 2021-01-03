@@ -1,0 +1,33 @@
+# # Write your MySQL query statement below
+
+with cte as (select distinct user_id,date('2021-1-1') from UserVisits),
+cte1 as (select * from UserVisits union all select * from cte)
+select temp.user_id,max(temp.diff) as biggest_window
+from  
+(select a.user_id,a.visit_date,datediff(min(b.visit_date),a.visit_date) as diff
+from cte1  a join cte1 b on a.user_id=b.user_id and a.visit_date<b.visit_date
+group by 1,2) temp
+group by 1
+order by 1;
+
+
+SELECT
+    user_id,
+    MAX(DATEDIFF(visit_date_after, visit_date)) AS biggest_window
+FROM (
+    SELECT
+        user_id,
+        visit_date,
+        IFNULL(
+            LEAD(visit_date, 1) OVER (
+                PARTITION BY
+                    user_id
+                ORDER BY
+                    visit_date 
+            ),
+            DATE('2021-1-1')
+        ) AS visit_date_after
+    FROM UserVisits
+) a
+GROUP BY
+    user_id;
