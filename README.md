@@ -318,3 +318,4 @@
 1683| [Invalid Tweets](https://leetcode.com/problems/invalid-tweets/) | [MY SQL](./Invalid-Tweets)  | Easy   ||
 1693| [Daily Leads and Partners](https://leetcode.com/problems/daily-leads-and-partners/) | [MY SQL](./Daily-Leads-and-Partners)  | Easy   ||
 1699| [Number of Calls Between Two Persons](https://leetcode.com/problems/number-of-calls-between-two-persons/) | [MY SQL](./Number-of-Calls-Between-Two-Persons)  | Medium   ||
+1709| [Biggest Window Between Visits](https://leetcode.com/problems/biggest-window-between-visits/) | [MY SQL](./Biggest-Window-Between-Visits)  | Medium   ||
