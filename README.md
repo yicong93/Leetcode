@@ -61,6 +61,7 @@
 1108| [Defanging an IP Address](https://leetcode.com/problems/defanging-an-ip-address/)      | [Python](./Defanging-an-IP-Address)      | _O(n)_         | _O(n)_          | Easy        ||
 1119| [Remove Vowels from a String](https://leetcode.com/problems/remove-vowels-from-a-string/)      | [Python](./Remove-Vowels-from-a-String)      | _O(n)_         | _O(1)_          | Easy        ||
 1165| [Single Row Keyboard](https://leetcode.com/problems/single-row-keyboard/)      | [Python](./Single-Row-Keyboard)      | _O(n)_    | _O(1)_  | Easy        ||
+1221| [Split a String in Balanced Strings](https://leetcode.com/problems/split-a-string-in-balanced-strings/)      | [Python](./Split-a-String-in-Balanced-Strings)      | _O(n)_    | _O(1)_  | Easy        ||
 1528| [Shuffle String](https://leetcode.com/problems/shuffle-string/)      | [Python](./Shuffle-String)      | _O(n)_         | _O(n)_   | Easy        ||
 1662| [Check If Two String Arrays are Equivalent](https://leetcode.com/problems/check-if-two-string-arrays-are-equivalent/)      | [Python](./Check-If-Two-String-Arrays-are-Equivalent)      | _O(n)_         | _O(n)_   | Easy        ||
 1678| [Goal Parser Interpretation](https://leetcode.com/problems/goal-parser-interpretation/) | [Python](./Goal-Parser-Interpretation) | _O(n)_ | _O(1)_| Easy  ||
