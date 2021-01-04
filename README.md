@@ -34,6 +34,7 @@
 1389| [Create Target Array in the Given Order](https://leetcode.com/problems/create-target-array-in-the-given-order/)  | [Python](./Create-Target-Array-in-the-Given-Order)   | _O(n^2)_ | _O(n)_  | Easy   ||
 1470| [Shuffle the Array](https://leetcode.com/problems/shuffle-the-array/)      | [Python](./Shuffle-the-Array)      | _O(n)_         | _O(n)_  | Easy        ||
 1480| [Running Sum of 1d Array](https://leetcode.com/problems/running-sum-of-1d-array/)  | [Python](./Running-Sum-of-1d-Array)| _O(n)_  | _O(1)_    | Easy     ||
+1486| [XOR Operation in an Array](https://leetcode.com/problems/xor-operation-in-an-array/)  | [Python](./XOR-Operation-in-an-Array)| _O(n)_ | _O(1)_ | Easy   ||
 1603| [Design Parking System](https://leetcode.com/problems/design-parking-system/)  | [Python](./Design-Parking-System)| _O(1)_  | _O(1)_    | Easy     ||
 1672| [Richest Customer Wealth](https://leetcode.com/problems/richest-customer-wealth/)  | [Python](./Richest-Customer-Wealth)| _O(n)_  | _O(1)_    | Easy     ||
 
