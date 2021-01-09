@@ -171,6 +171,7 @@
 |  #  | Title           |  Solution       |  Time           | Space           | Difficulty    |Note| 
 |-----|---------------- | --------------- | --------------- | --------------- | ------------- |-----|
 46| [Permutations](https://leetcode.com/problems/permutations/)      | [Python](./Permutations)      | _O(n!)_         | _O(n)_          | Medium        ||
+1688| [Count of Matches in Tournament](https://leetcode.com/problems/count-of-matches-in-tournament/)| [Python](./Count-of-Matches-in-Tournament)| _O(n)_ | _O(1)_| Easy ||
 
 ## Math
 |  #  | Title           |  Solution       |  Time           | Space           | Difficulty    |Note| 
