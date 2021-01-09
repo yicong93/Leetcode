@@ -1,0 +1,14 @@
+class Solution:
+    def maxDepth(self, s: str) -> int:
+        temp = 0
+        counter = 0
+        for each in s:
+            if each == "(":
+                temp += 1
+            elif each == ")":
+                temp -= 1
+            if temp > counter:
+                counter = temp
+        return counter
+    
+#The depth of any character in the VPS is the ( number of left brackets #before it ) - ( number of right brackets before it )
