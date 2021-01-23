@@ -330,3 +330,4 @@
 1699| [Number of Calls Between Two Persons](https://leetcode.com/problems/number-of-calls-between-two-persons/) | [MY SQL](./Number-of-Calls-Between-Two-Persons)  | Medium   ||
 1709| [Biggest Window Between Visits](https://leetcode.com/problems/biggest-window-between-visits/) | [MY SQL](./Biggest-Window-Between-Visits)  | Medium   ||
 1715| [Count Apples and Oranges](https://leetcode.com/problems/count-apples-and-oranges/) | [MY SQL](./Count-Apples-and-Oranges)  | Medium   ||
+1731| [The Number of Employees Which Report to Each Employee](https://leetcode.com/problems/the-number-of-employees-which-report-to-each-employee/) | [MY SQL](./The-Number-of-Employees-Which-Report-to-Each-Employee)  | Easy   ||
