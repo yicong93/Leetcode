@@ -40,6 +40,7 @@
 1603| [Design Parking System](https://leetcode.com/problems/design-parking-system/)  | [Python](./Design-Parking-System)| _O(1)_  | _O(1)_    | Easy     ||
 1656| [Design an Ordered Stream](https://leetcode.com/problems/design-an-ordered-stream/)  | [Python](./Design-an-Ordered-Stream)| _O(1)_  | _O(1)_  | Easy     ||
 1672| [Richest Customer Wealth](https://leetcode.com/problems/richest-customer-wealth/)  | [Python](./Richest-Customer-Wealth)| _O(n)_  | _O(1)_    | Easy     ||
+1732| [Find the Highest Altitude](https://leetcode.com/problems/find-the-highest-altitude/)  | [Python](./Find-the-Highest-Altitude)| _O(n)_ | _O(n)_ | Easy     ||
 
 ## Two Pointers
 |  #  | Title           |  Solution       |  Time           | Space           | Difficulty    |Note| 
