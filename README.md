@@ -333,3 +333,4 @@
 1709| [Biggest Window Between Visits](https://leetcode.com/problems/biggest-window-between-visits/) | [MY SQL](./Biggest-Window-Between-Visits)  | Medium   ||
 1715| [Count Apples and Oranges](https://leetcode.com/problems/count-apples-and-oranges/) | [MY SQL](./Count-Apples-and-Oranges)  | Medium   ||
 1731| [The Number of Employees Which Report to Each Employee](https://leetcode.com/problems/the-number-of-employees-which-report-to-each-employee/) | [MY SQL](./The-Number-of-Employees-Which-Report-to-Each-Employee)  | Easy   ||
+1741| [Find Total Time Spent by Each Employee](https://leetcode.com/problems/find-total-time-spent-by-each-employee/) | [MY SQL](./Find-Total-Time-Spent-by-Each-Employee)  | Easy   ||
