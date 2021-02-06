@@ -1,0 +1,8 @@
+class Solution:
+    def isArmstrong(self, N: int) -> bool:
+        sums=0
+        k=len(str(N))
+        for i in str(N):
+            # sums+=int(i)**k
+            sums += pow(int(i), k)
+        return sums==N
