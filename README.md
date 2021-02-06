@@ -187,6 +187,7 @@
 ## Math
 |  #  | Title           |  Solution       |  Time           | Space           | Difficulty    |Note| 
 |-----|---------------- | --------------- | --------------- | --------------- | ------------- |-----|
+1134| [Armstrong Number](https://leetcode.com/problems/armstrong-number/)      | [Python](./Armstrong-Number)  | _O(n)_         | _O(1)_          | Easy        ||
 1281| [Subtract the Product and Sum of Digits of an Integer](https://leetcode.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer/)      | [Python](./Subtract-the-Product-and-Sum-of-Digits-of-an-Integer)      | _O(n)_         | _O(1)_          | Easy        ||
 
 ## sql
