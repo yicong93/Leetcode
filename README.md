@@ -337,3 +337,4 @@
 1715| [Count Apples and Oranges](https://leetcode.com/problems/count-apples-and-oranges/) | [MY SQL](./Count-Apples-and-Oranges)  | Medium   ||
 1731| [The Number of Employees Which Report to Each Employee](https://leetcode.com/problems/the-number-of-employees-which-report-to-each-employee/) | [MY SQL](./The-Number-of-Employees-Which-Report-to-Each-Employee)  | Easy   ||
 1741| [Find Total Time Spent by Each Employee](https://leetcode.com/problems/find-total-time-spent-by-each-employee/) | [MY SQL](./Find-Total-Time-Spent-by-Each-Employee)  | Easy   ||
+1747| [Leetflex Banned Accounts](https://leetcode.com/problems/leetflex-banned-accounts/) | [MY SQL](./Leetflex-Banned-Accounts)  | Medium   ||
