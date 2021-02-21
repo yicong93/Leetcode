@@ -341,3 +341,4 @@
 1741| [Find Total Time Spent by Each Employee](https://leetcode.com/problems/find-total-time-spent-by-each-employee/) | [MY SQL](./Find-Total-Time-Spent-by-Each-Employee)  | Easy   ||
 1747| [Leetflex Banned Accounts](https://leetcode.com/problems/leetflex-banned-accounts/) | [MY SQL](./Leetflex-Banned-Accounts)  | Medium   ||
 1757| [Recyclable and Low Fat Products](https://leetcode.com/problems/recyclable-and-low-fat-products/) | [MY SQL](./Recyclable-and-Low-Fat-Products)  | Easy   ||
+1767| [Find the Subtasks That Did Not Execute](https://leetcode.com/problems/find-the-subtasks-that-did-not-execute/) | [MY SQL](./Find-the-Subtasks-That-Did-Not-Execute)  | Hard   ||
