@@ -1,0 +1,11 @@
+# Write your MySQL query statement below
+with recursive cnts as(
+select 1 as n
+union all
+select n+1 from cnts where n<20)
+
+select distinct temp.task_id, temp.n as subtask_id
+from
+(select distinct a.task_id,b.n 
+from Tasks a join cnts b on a.subtasks_count>=b.n) temp 
+where (temp.task_id,temp.n) not in (select * from Executed);
