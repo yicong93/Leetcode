@@ -126,7 +126,8 @@
 560| [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/)      | [Python](./Subarray-Sum-Equals-K)      | _O(n)_         | _O(n)_          | Medium         ||
 692| [Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/)      | [Python](./Top-K-Frequent-Words)      | _O(n+klogn)_         | _O(n)_          | Medium         ||
 811| [Subdomain Visit Count](https://leetcode.com/problems/subdomain-visit-count/)      | [Python](./Subdomain-Visit-Count)      | _O(n)_         | _O(n)_          | Easy        ||
-1133| [Largest Unique Number](https://leetcode.com/problems/largest-unique-number/)      | [Python](./Largest-Unique-Number)      | _O(n)_         | _O(n)_          | Easy     ||    
+1133| [Largest Unique Number](https://leetcode.com/problems/largest-unique-number/)      | [Python](./Largest-Unique-Number)      | _O(n)_         | _O(n)_          | Easy     ||   
+1189| [Maximum Number of Balloons](https://leetcode.com/problems/maximum-number-of-balloons/)| [Python](./Maximum-Number-of-Balloons) | _O(n)_| _O(1)_| Easy     || 
 1365| [How Many Numbers Are Smaller Than the Current Number](https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/)      | [Python](./How-Many-Numbers-Are-Smaller-Than-the-Current-Number)      | _O(n^2)_         | _O(n)_          | Easy     ||  
 
 
