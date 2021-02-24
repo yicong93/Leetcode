@@ -1,0 +1,10 @@
+class Solution:
+    def maxNumberOfBalloons(self, text: str) -> int:
+        b = {'b':0,'a':0,'l':0,'o':0,'n':0}
+        for l in text:
+            if l in b:
+                b[l] +=1
+        lo_count = min(b["l"], b["o"]) // 2
+        hi_count = min(b["b"], b["a"], b["n"])
+        
+        return min(lo_count, hi_count)
