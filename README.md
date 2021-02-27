@@ -78,6 +78,7 @@
 1662| [Check If Two String Arrays are Equivalent](https://leetcode.com/problems/check-if-two-string-arrays-are-equivalent/)      | [Python](./Check-If-Two-String-Arrays-are-Equivalent)      | _O(n)_         | _O(n)_   | Easy        ||
 1678| [Goal Parser Interpretation](https://leetcode.com/problems/goal-parser-interpretation/) | [Python](./Goal-Parser-Interpretation) | _O(n)_ | _O(1)_| Easy  ||
 1684| [Count the Number of Consistent Strings](https://leetcode.com/problems/count-the-number-of-consistent-strings/) | [Python](./Count-the-Number-of-Consistent-Strings) | _O(m)_ | _O(n)_| Easy  ||
+1758| [Minimum Changes To Make Alternating Binary String](https://leetcode.com/problems/minimum-changes-to-make-alternating-binary-string/) | [Python](./Minimum-Changes-To-Make-Alternating-Binary-String) | _O(m)_ | _O(1)_| Easy  ||
 1768| [Merge Strings Alternately](https://leetcode.com/problems/merge-strings-alternately/) | [Python](./Merge-Strings-Alternately) | _O(m+n)_ | _O(m+n)_| Easy  ||
 
 ## Linked List
