@@ -346,3 +346,4 @@
 1747| [Leetflex Banned Accounts](https://leetcode.com/problems/leetflex-banned-accounts/) | [MY SQL](./Leetflex-Banned-Accounts)  | Medium   ||
 1757| [Recyclable and Low Fat Products](https://leetcode.com/problems/recyclable-and-low-fat-products/) | [MY SQL](./Recyclable-and-Low-Fat-Products)  | Easy   ||
 1767| [Find the Subtasks That Did Not Execute](https://leetcode.com/problems/find-the-subtasks-that-did-not-execute/) | [MY SQL](./Find-the-Subtasks-That-Did-Not-Execute)  | Hard   ||
+1777| [Product's Price for Each Store](https://leetcode.com/problems/products-price-for-each-store/) | [MY SQL](./Product's-Price-for-Each-Store)  | Easy   ||
