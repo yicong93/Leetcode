@@ -14,6 +14,7 @@
 * [Dynamic Programming](https://github.com/yicong93/LeetCode#Dynamic-Programming)
 * [Backtracking](https://github.com/yicong93/LeetCode#Backtracking)
 * [Math](https://github.com/yicong93/LeetCode#Math)
+* [Design](https://github.com/yicong93/LeetCode#Design)
 
 ## Database
 * [SQL](https://github.com/yicong93/LeetCode#sql)
@@ -194,6 +195,11 @@
 728| [Self Dividing Numbers](https://leetcode.com/problems/self-dividing-numbers/)      | [Python](./Self-Dividing-Numbers)  | _O(n)_  | _O(n)_  | Easy        ||
 1134| [Armstrong Number](https://leetcode.com/problems/armstrong-number/)      | [Python](./Armstrong-Number)  | _O(n)_         | _O(1)_          | Easy        ||
 1281| [Subtract the Product and Sum of Digits of an Integer](https://leetcode.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer/)      | [Python](./Subtract-the-Product-and-Sum-of-Digits-of-an-Integer)      | _O(n)_         | _O(1)_          | Easy        ||
+
+## Design
+|  #  | Title           |  Solution       |  Time           | Space           | Difficulty    |Note| 
+|-----|---------------- | --------------- | --------------- | --------------- | ------------- |-----|
+146| [LRU Cache](https://leetcode.com/problems/lru-cache/)      | [Python](./LRU-Cache)  | _O(1)_  | _O(1)_  | Easy        ||
 
 ## sql
 |  #  | Title           |  Solution       |Difficulty    |Note| 
