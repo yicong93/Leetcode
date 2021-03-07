@@ -23,8 +23,9 @@
 ## Array
 |  #  | Title           |  Solution       |  Time           | Space           | Difficulty    |Note| 
 |-----|---------------- | --------------- | --------------- | --------------- | ------------- |-----|
-11| [Container With Most Water](https://leetcode.com/problems/container-with-most-water/)      | [Python](./Container-With-Most-Water)      | _O(n)_         | _O(1)_          | Medium        ||
-53| [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)      | [Python](./Maximum-Subarray)      | _O(n)_         | _O(1)_          | Easy        ||
+11| [Container With Most Water](https://leetcode.com/problems/container-with-most-water/)| [Python](./Container-With-Most-Water)| _O(n)_| _O(1)_ | Medium        ||
+41| [First Missing Positive](https://leetcode.com/problems/first-missing-positive/)| [Python](./First-Missing-Positive)| _O(n)_| _O(n)_ | Hard        ||
+53| [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)      | [Python](./Maximum-Subarray)      | _O(n)_         | _O(1)_          | Easy    ||
 122| [Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/)      | [Python](./Best-Time-to-Buy-and-Sell-Stock-II)      | _O(n)_         | _O(1)_          | Easy        ||
 238| [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/)      | [Python](./Product-of-Array-Except-Self)      | _O(n)_         | _O(1)_          | Medium        ||
 283| [Move Zeroes](https://leetcode.com/problems/move-zeroes/)      | [Python](./Move-Zeroes)      | _O(n)_         | _O(1)_          | Easy        ||
