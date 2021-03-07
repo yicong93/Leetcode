@@ -187,6 +187,7 @@
 ## Backtracking
 |  #  | Title           |  Solution       |  Time           | Space           | Difficulty    |Note| 
 |-----|---------------- | --------------- | --------------- | --------------- | ------------- |-----|
+17| [Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)| [Python](./Letter-Combinations-of-a-Phone-Number)| _O(3^n*4^m)_  | _O(3^n*4^m)_ | Medium  ||
 46| [Permutations](https://leetcode.com/problems/permutations/)      | [Python](./Permutations)      | _O(n!)_         | _O(n)_          | Medium        ||
 1688| [Count of Matches in Tournament](https://leetcode.com/problems/count-of-matches-in-tournament/)| [Python](./Count-of-Matches-in-Tournament)| _O(n)_ | _O(1)_| Easy ||
 
