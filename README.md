@@ -140,7 +140,8 @@
 |-----|---------------- | --------------- | --------------- | --------------- | ------------- |-----|
 155| [Min Stack](https://leetcode.com/problems/min-stack/)      | [Python](./Min-Stack)      | _O(1)_         | _O(n)_          | Easy        ||
 225| [Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues/)      | [Python](./Implement-Stack-using-Queues)      | _O(1)_         | _O(1)_          | Easy        ||
-844| [Backspace String Compare](https://leetcode.com/problems/backspace-string-compare/)      | [Python](./Backspace-String-Compare)      | _O(n+m)_         | _O(n+m)_          | Easy        ||
+739| [Daily Temperatures](https://leetcode.com/problems/daily-temperatures/)      | [Python](./Daily-Temperatures)      | _O(n)_    | _O(m)_   | Medium        ||
+844| [Backspace String Compare](https://leetcode.com/problems/backspace-string-compare/) | [Python](./Backspace-String-Compare) | _O(n+m)_  | _O(n+m)_ | Easy ||
 
 ## Binary Search
 |  #  | Title           |  Solution       |  Time           | Space           | Difficulty    |Note| 
