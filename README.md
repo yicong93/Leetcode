@@ -155,7 +155,8 @@
 111| [Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/)      | [Python](./Minimum-Depth-of-Binary-Tree)      | _O(n)_         | _O(logn)_          | easy       ||
 112| [Path Sum](https://leetcode.com/problems/path-sum/)      | [Python](./Path-Sum)      | _O(n)_         | _O(logn)_          | easy       ||
 124| [Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/)      | [Python](./Binary-Tree-Maximum-Path-Sum)      | _O(n)_         | _O(h)_          | Hard        ||
-543| [Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/)      | [Python](./Diameter-of-Binary-Tree)      | _O(n)_         | _O(n)_          | Easy        ||
+543| [Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/) | [Python](./Diameter-of-Binary-Tree) | _O(n)_  | _O(n)_   | Easy        ||
+617| [Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees/) | [Python](./Merge-Two-Binary-Trees) | _O(n)_   | _O(n)_    | Easy        ||
 701| [Insert into a Binary Search Tree](https://leetcode.com/problems/insert-into-a-binary-search-tree/)      | [Python](./Insert-into-a-Binary-Search-Tree)      | _O(h)_         | _O(1)_          | Medium        ||
 1008| [Construct Binary Search Tree from Preorder Traversal](https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/)      | [Python](./Construct-Binary-Search-Tree-from-Preorder-Traversal)      | _O(n)_         | _O(n)_          | Medium        ||
 1469| [Find All The Lonely Nodes](https://leetcode.com/problems/find-all-the-lonely-nodes/) | [Python](./Find-All-The-Lonely-Nodes) | _O(n)_  | _O(n)_ | Easy    ||
