@@ -1,0 +1,9 @@
+# Write your MySQL query statement below
+select f.user1_id as user_id,l.page_id,count(distinct f.user2_id) as friends_likes
+from 
+ (select user1_id, user2_id from Friendship
+ union 
+ select user2_id, user1_id from Friendship) f join Likes l on f.user2_id=l.user_id
+ left join Likes i on f.user1_id=i.user_id and l.page_id=i.page_id
+where i.user_id is null
+group by 1,2;
