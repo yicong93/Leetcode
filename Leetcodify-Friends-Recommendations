@@ -1,0 +1,13 @@
+# Write your MySQL query statement below
+with users_similar as(select distinct l.user_id as user1_id,i.user_id as user2_id 
+from Listens l join Listens i on l.user_id!=i.user_id and l.song_id=i.song_id and l.day=i.day
+group by l.user_id,i.user_id,l.day
+having count(distinct l.song_id)>=3),
+friends as (select user1_id, user2_id
+    from Friendship
+    union
+    select user2_id,user1_id
+    from Friendship)
+select user1_id as user_id,user2_id as recommended_id
+from users_similar
+where (user1_id,user2_id) not in (select user1_id, user2_id from friends);
