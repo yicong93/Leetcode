@@ -359,3 +359,4 @@
 1767| [Find the Subtasks That Did Not Execute](https://leetcode.com/problems/find-the-subtasks-that-did-not-execute/) | [MY SQL](./Find-the-Subtasks-That-Did-Not-Execute)  | Hard   ||
 1777| [Product's Price for Each Store](https://leetcode.com/problems/products-price-for-each-store/) | [MY SQL](./Product's-Price-for-Each-Store)  | Easy   ||
 1892| [Page Recommendations II](https://leetcode.com/problems/page-recommendations-ii/) | [MY SQL](./Page-Recommendations-II)  | Hard   ||
+1919| [Leetcodify Similar Friends](https://leetcode.com/problems/leetcodify-similar-friends/) | [MY SQL](./Leetcodify-Similar-Friends)  | Hard   ||
