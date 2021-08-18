@@ -1,0 +1,8 @@
+# Write your MySQL query statement below
+with temp as(select r.user_id as user1_id, e.user_id as user2_id,count(distinct r.follower_id) as com_cnt
+from Relations r
+join Relations e on r.follower_id=e.follower_id and r.user_id<e.user_id
+group by 1,2)
+select distinct user1_id,user2_id
+from temp
+where com_cnt=(select max(com_cnt) from temp);
