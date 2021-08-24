@@ -362,3 +362,4 @@
 1917| [Leetcodify Friends Recommendations](https://leetcode.com/problems/leetcodify-friends-recommendations/) | [MY SQL](./Leetcodify-Friends-Recommendations)  | Hard   ||
 1919| [Leetcodify Similar Friends](https://leetcode.com/problems/leetcodify-similar-friends/) | [MY SQL](./Leetcodify-Similar-Friends)  | Hard   ||
 1951| [All the Pairs With the Maximum Number of Common Followers](https://leetcode.com/problems/all-the-pairs-with-the-maximum-number-of-common-followers/) | [MY SQL](./All-the-Pairs-With-the-Maximum-Number-of-Common-Followers)  | Medium   ||
+1972| [First and Last Call On the Same Day](https://leetcode.com/problems/first-and-last-call-on-the-same-day/) | [MY SQL](./First-and-Last-Call-On-the-Same-Day)  | Hard   ||
