@@ -1,0 +1,11 @@
+# Write your MySQL query statement below
+with all_calls as(
+select caller_id as user1, recipient_id as user2, call_time from Calls   
+union all   
+select recipient_id as user1, caller_id as user2, call_time from Calls),
+fst_lst_call as(
+select user1,user2, date(call_time) as date, row_number() over(partition by user1,date(call_time) order by call_time) as rank_asc,row_number() over(partition by user1,date(call_time) order by call_time desc) as rank_des   
+from all_calls)
+select distinct a.user1 as user_id
+from fst_lst_call a
+join fst_lst_call b on a.user1=b.user1 and a.date=b.date and a.rank_asc=1 and b.rank_des=1 and a.user2=b.user2;
