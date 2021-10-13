@@ -1,0 +1,15 @@
+with temp as(
+select sum(salary) over(order by salary) as rolling_sum
+    from Candidates
+    where experience='Senior'),
+    temp1 as(
+    select sum(salary) over(order by salary) as rolling_sum
+    from Candidates
+    where experience='Junior')
+select 'Senior' as experience,count(*) as accepted_candidates
+from temp
+where rolling_sum<=70000
+union
+select 'Junior' as experience,count(*) as accepted_candidates
+from temp1
+where rolling_sum<=70000-(select ifnull(max(rolling_sum),0) from temp where rolling_sum<=70000);
