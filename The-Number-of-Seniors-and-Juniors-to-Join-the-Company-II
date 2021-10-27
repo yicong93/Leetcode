@@ -1,0 +1,16 @@
+# Write your MySQL query statement below
+with temp as(
+select employee_id,sum(salary) over(order by salary) as rolling_sum
+    from Candidates
+    where experience='Senior'),
+    temp1 as(
+    select employee_id, sum(salary) over(order by salary) as rolling_sum
+    from Candidates
+    where experience='Junior')
+select employee_id
+from temp
+where rolling_sum<=70000
+union
+select employee_id
+from temp1
+where rolling_sum<=70000-(select ifnull(max(rolling_sum),0) from temp where rolling_sum<=70000);
